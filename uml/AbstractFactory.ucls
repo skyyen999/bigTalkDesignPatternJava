@@ -3,7 +3,7 @@
   realizations="true" associations="true" dependencies="false" nesting-relationships="true" router="FAN">  
   <interface id="1" language="java" name="bigtalk.abstractFactory.IDeptDao" project="BigTalkDesignPattern" 
     file="/BigTalkDesignPattern/src/bigtalk/abstractFactory/IDeptDao.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="300" y="326"/>    
+    <position height="-1" width="-1" x="245" y="350"/>    
     <display autosize="true" stereotype="true" package="false" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="false" package="false" protected="false" private="false" static="true"/>      
@@ -12,7 +12,7 @@
   </interface>  
   <class id="2" language="java" name="bigtalk.abstractFactory.SqlServerDeptDao" project="BigTalkDesignPattern" 
     file="/BigTalkDesignPattern/src/bigtalk/abstractFactory/SqlServerDeptDao.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="182" y="464"/>    
+    <position height="-1" width="-1" x="151" y="472"/>    
     <display autosize="true" stereotype="true" package="false" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="false" package="false" protected="false" private="false" static="true"/>      
@@ -30,7 +30,7 @@
   </interface>  
   <class id="4" language="java" name="bigtalk.abstractFactory.OracleDeptDao" project="BigTalkDesignPattern" 
     file="/BigTalkDesignPattern/src/bigtalk/abstractFactory/OracleDeptDao.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="381" y="466"/>    
+    <position height="-1" width="-1" x="360" y="473"/>    
     <display autosize="true" stereotype="true" package="false" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="false" package="false" protected="false" private="false" static="true"/>      
@@ -92,31 +92,44 @@
     <end type="TARGET" refId="7"/>  
   </realization>  
   <dependency id="12">    
-    <bendpoint x="461" y="267"/>    
-    <bendpoint x="853" y="266"/>    
+    <bendpoint x="462" y="360"/>    
+    <bendpoint x="619" y="275"/>    
+    <bendpoint x="622" y="258"/>    
+    <bendpoint x="637" y="258"/>    
+    <bendpoint x="645" y="273"/>    
+    <bendpoint x="848" y="270"/>    
     <end type="SOURCE" refId="5"/>    
     <end type="TARGET" refId="9"/>  
   </dependency>  
-  <dependency id="13">    
-    <end type="SOURCE" refId="5"/>    
-    <end type="TARGET" refId="4"/>  
-  </dependency>  
-  <realization id="14">    
+  <realization id="13">    
     <end type="SOURCE" refId="5"/>    
     <end type="TARGET" refId="3"/>  
   </realization>  
-  <realization id="15">    
+  <realization id="14">    
     <end type="SOURCE" refId="4"/>    
     <end type="TARGET" refId="1"/>  
   </realization>  
+  <dependency id="15">    
+    <bendpoint x="360" y="188"/>    
+    <end type="SOURCE" refId="5"/>    
+    <end type="TARGET" refId="4"/>  
+  </dependency>  
   <dependency id="16">    
     <bendpoint x="629" y="473"/>    
     <end type="SOURCE" refId="6"/>    
     <end type="TARGET" refId="8"/>  
   </dependency>  
   <dependency id="17">    
-    <bendpoint x="575" y="253"/>    
-    <bendpoint x="184" y="249"/>    
+    <bendpoint x="578" y="277"/>    
+    <bendpoint x="469" y="281"/>    
+    <bendpoint x="466" y="258"/>    
+    <bendpoint x="448" y="259"/>    
+    <bendpoint x="450" y="280"/>    
+    <bendpoint x="371" y="277"/>    
+    <bendpoint x="369" y="255"/>    
+    <bendpoint x="351" y="257"/>    
+    <bendpoint x="349" y="277"/>    
+    <bendpoint x="151" y="279"/>    
     <end type="SOURCE" refId="6"/>    
     <end type="TARGET" refId="2"/>  
   </dependency>  
@@ -124,11 +137,7 @@
     <end type="SOURCE" refId="2"/>    
     <end type="TARGET" refId="1"/>  
   </realization>  
-  <dependency id="19">    
-    <end type="SOURCE" refId="6"/>    
-    <end type="TARGET" refId="7"/>  
-  </dependency>  
-  <realization id="20">    
+  <realization id="19">    
     <end type="SOURCE" refId="9"/>    
     <end type="TARGET" refId="7"/>  
   </realization>  
