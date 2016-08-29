@@ -1,4 +1,4 @@
-package bigtalk;
+package bigtalk.state;
 
 import bigtalk.state.Work;
 
