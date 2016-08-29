@@ -92,11 +92,11 @@
     <end type="TARGET" refId="7"/>  
   </realization>  
   <dependency id="12">    
-    <bendpoint x="462" y="360"/>    
-    <bendpoint x="619" y="275"/>    
-    <bendpoint x="622" y="258"/>    
-    <bendpoint x="637" y="258"/>    
-    <bendpoint x="645" y="273"/>    
+    <bendpoint x="458" y="361"/>    
+    <bendpoint x="620" y="361"/>    
+    <bendpoint x="620" y="252"/>    
+    <bendpoint x="640" y="252"/>    
+    <bendpoint x="639" y="271"/>    
     <bendpoint x="848" y="270"/>    
     <end type="SOURCE" refId="5"/>    
     <end type="TARGET" refId="9"/>  
@@ -124,7 +124,7 @@
     <bendpoint x="469" y="281"/>    
     <bendpoint x="466" y="258"/>    
     <bendpoint x="448" y="259"/>    
-    <bendpoint x="450" y="280"/>    
+    <bendpoint x="447" y="280"/>    
     <bendpoint x="371" y="277"/>    
     <bendpoint x="369" y="255"/>    
     <bendpoint x="351" y="257"/>    

@@ -1,102 +1,97 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <class-diagram version="1.1.10" icons="false" always-add-relationships="false" generalizations="true" 
   realizations="true" associations="true" dependencies="false" nesting-relationships="true" router="FAN">  
-  <class id="1" language="java" name="bigtalk.observer.Boss" project="BigTalkDesignPattern" 
-    file="/BigTalkDesignPattern/src/bigtalk/observer/Boss.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="125" y="248"/>    
+  <class id="1" language="java" name="bigtalk.state.Work" project="BigTalkDesignPattern" 
+    file="/BigTalkDesignPattern/src/bigtalk/state/Work.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="140" y="179"/>    
     <display autosize="true" stereotype="true" package="false" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="false" package="false" protected="false" private="false" static="true"/>      
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </class>  
-  <class id="2" language="java" name="bigtalk.observer.NBAObserver" project="BigTalkDesignPattern" 
-    file="/BigTalkDesignPattern/src/bigtalk/observer/NBAObserver.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="550" y="249"/>    
+  <class id="2" language="java" name="bigtalk.state.EveningState" project="BigTalkDesignPattern" 
+    file="/BigTalkDesignPattern/src/bigtalk/state/EveningState.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="475" y="381"/>    
     <display autosize="true" stereotype="true" package="false" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="false" package="false" protected="false" private="false" static="true"/>      
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </class>  
-  <class id="3" language="java" name="bigtalk.observer.Subject" project="BigTalkDesignPattern" 
-    file="/BigTalkDesignPattern/src/bigtalk/observer/Subject.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="218" y="95"/>    
+  <class id="3" language="java" name="bigtalk.state.AfternoonState" project="BigTalkDesignPattern" 
+    file="/BigTalkDesignPattern/src/bigtalk/state/AfternoonState.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="652" y="381"/>    
     <display autosize="true" stereotype="true" package="false" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="false" package="false" protected="false" private="false" static="true"/>      
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </class>  
-  <class id="4" language="java" name="bigtalk.observer.Observer" project="BigTalkDesignPattern" 
-    file="/BigTalkDesignPattern/src/bigtalk/observer/Observer.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="80" width="142" x="566" y="67"/>    
-    <display autosize="false" stereotype="true" package="false" initial-value="false" signature="true" 
-      sort-features="false" accessors="true" visibility="true">      
-      <attributes public="false" package="false" protected="false" private="false" static="true"/>      
-      <operations public="true" package="true" protected="true" private="true" static="true"/>    
-    </display>  
-  </class>  
-  <class id="5" language="java" name="bigtalk.observer.StockObserver" project="BigTalkDesignPattern" 
-    file="/BigTalkDesignPattern/src/bigtalk/observer/StockObserver.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="735" y="248"/>    
+  <class id="4" language="java" name="bigtalk.state.ForenoonState" project="BigTalkDesignPattern" 
+    file="/BigTalkDesignPattern/src/bigtalk/state/ForenoonState.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="118" y="381"/>    
     <display autosize="true" stereotype="true" package="false" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="false" package="false" protected="false" private="false" static="true"/>      
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </class>  
-  <class id="6" language="java" name="bigtalk.observer.Secretary" project="BigTalkDesignPattern" 
-    file="/BigTalkDesignPattern/src/bigtalk/observer/Secretary.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="297" y="247"/>    
+  <interface id="5" language="java" name="bigtalk.state.State" project="BigTalkDesignPattern" 
+    file="/BigTalkDesignPattern/src/bigtalk/state/State.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="505" y="159"/>    
+    <display autosize="true" stereotype="true" package="false" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="false" package="false" protected="false" private="false" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <class id="6" language="java" name="bigtalk.state.NoonState" project="BigTalkDesignPattern" 
+    file="/BigTalkDesignPattern/src/bigtalk/state/NoonState.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="295" y="381"/>    
     <display autosize="true" stereotype="true" package="false" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="false" package="false" protected="false" private="false" static="true"/>      
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </class>  
-  <association id="7">    
-    <bendpoint x="364" y="123"/>    
-    <end type="SOURCE" refId="4" navigable="false">      
-      <attribute id="8" name="sub">        
-        <position height="0" width="0" x="0" y="0"/>      
-      </attribute>      
-      <multiplicity id="9" minimum="0" maximum="1">        
-        <position height="0" width="0" x="0" y="0"/>      
-      </multiplicity>    
-    </end>    
-    <end type="TARGET" refId="3" navigable="true"/>    
-    <display labels="true" multiplicity="true"/>  
-  </association>  
-  <generalization id="10">    
-    <end type="SOURCE" refId="5"/>    
-    <end type="TARGET" refId="4"/>  
-  </generalization>  
-  <generalization id="11">    
-    <end type="SOURCE" refId="2"/>    
-    <end type="TARGET" refId="4"/>  
-  </generalization>  
-  <association id="12">    
-    <bendpoint x="509" y="57"/>    
-    <end type="SOURCE" refId="3" navigable="false">      
-      <attribute id="13" name="list">        
-        <position height="0" width="0" x="0" y="0"/>      
-      </attribute>      
-      <multiplicity id="14" minimum="0" maximum="2147483647">        
-        <position height="0" width="0" x="0" y="0"/>      
-      </multiplicity>    
-    </end>    
-    <end type="TARGET" refId="4" navigable="true"/>    
-    <display labels="true" multiplicity="true"/>  
-  </association>  
-  <generalization id="15">    
-    <end type="SOURCE" refId="1"/>    
-    <end type="TARGET" refId="3"/>  
-  </generalization>  
-  <generalization id="16">    
+  <class id="7" language="java" name="bigtalk.state.RestState" project="BigTalkDesignPattern" 
+    file="/BigTalkDesignPattern/src/bigtalk/state/RestState.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="836" y="381"/>    
+    <display autosize="true" stereotype="true" package="false" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="false" package="false" protected="false" private="false" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <realization id="8">    
     <end type="SOURCE" refId="6"/>    
-    <end type="TARGET" refId="3"/>  
-  </generalization>  
+    <end type="TARGET" refId="5"/>  
+  </realization>  
+  <realization id="9">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="5"/>  
+  </realization>  
+  <realization id="10">    
+    <end type="SOURCE" refId="2"/>    
+    <end type="TARGET" refId="5"/>  
+  </realization>  
+  <realization id="11">    
+    <end type="SOURCE" refId="7"/>    
+    <end type="TARGET" refId="5"/>  
+  </realization>  
+  <association id="12">    
+    <end type="SOURCE" refId="1" navigable="false">      
+      <attribute id="13" name="current"/>      
+      <multiplicity id="14" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="5" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <realization id="15">    
+    <end type="SOURCE" refId="3"/>    
+    <end type="TARGET" refId="5"/>  
+  </realization>  
   <classifier-display autosize="true" stereotype="false" package="true" initial-value="false" signature="true" 
     sort-features="false" accessors="true" visibility="true">    
     <attributes public="false" package="false" protected="false" private="false" static="true"/>    

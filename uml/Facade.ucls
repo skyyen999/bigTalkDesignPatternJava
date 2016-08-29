@@ -4,7 +4,7 @@
   <class id="1" language="java" name="bigtalk.facade.Fund" project="BigTalkDesignPattern" 
     file="/BigTalkDesignPattern/src/bigtalk/facade/Fund.java" binary="false" corner="BOTTOM_RIGHT">    
     <position height="89" width="89" x="259" y="160"/>    
-    <display autosize="true" stereotype="false" package="false" initial-value="false" signature="true" 
+    <display autosize="true" stereotype="true" package="false" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="false" package="false" protected="false" private="false" static="true"/>      
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
@@ -12,8 +12,8 @@
   </class>  
   <class id="2" language="java" name="bigtalk.facade.Realty" project="BigTalkDesignPattern" 
     file="/BigTalkDesignPattern/src/bigtalk/facade/Fund.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="171" y="367"/>    
-    <display autosize="true" stereotype="false" package="false" initial-value="false" signature="true" 
+    <position height="-1" width="-1" x="145" y="402"/>    
+    <display autosize="true" stereotype="true" package="false" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="false" package="false" protected="false" private="false" static="true"/>      
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
@@ -21,8 +21,8 @@
   </class>  
   <class id="3" language="java" name="bigtalk.facade.Stock" project="BigTalkDesignPattern" 
     file="/BigTalkDesignPattern/src/bigtalk/facade/Fund.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="306" y="366"/>    
-    <display autosize="true" stereotype="false" package="false" initial-value="false" signature="true" 
+    <position height="-1" width="-1" x="304" y="402"/>    
+    <display autosize="true" stereotype="true" package="false" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="false" package="false" protected="false" private="false" static="true"/>      
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
@@ -30,8 +30,8 @@
   </class>  
   <class id="4" language="java" name="bigtalk.facade.Nationaldept" project="BigTalkDesignPattern" 
     file="/BigTalkDesignPattern/src/bigtalk/facade/Fund.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="501" y="363"/>    
-    <display autosize="true" stereotype="false" package="false" initial-value="false" signature="true" 
+    <position height="-1" width="-1" x="456" y="401"/>    
+    <display autosize="true" stereotype="true" package="false" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="false" package="false" protected="false" private="false" static="true"/>      
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
@@ -39,24 +39,36 @@
   </class>  
   <association id="5">    
     <end type="SOURCE" refId="1" navigable="false">      
-      <attribute id="6" name="dept"/>      
-      <multiplicity id="7" minimum="0" maximum="1"/>    
-    </end>    
-    <end type="TARGET" refId="4" navigable="true"/>    
-    <display labels="true" multiplicity="true"/>  
-  </association>  
-  <association id="8">    
-    <end type="SOURCE" refId="1" navigable="false">      
-      <attribute id="9" name="realty"/>      
-      <multiplicity id="10" minimum="0" maximum="1"/>    
+      <attribute id="6" name="realty">        
+        <position height="18" width="37" x="196" y="336"/>      
+      </attribute>      
+      <multiplicity id="7" minimum="0" maximum="1">        
+        <position height="16" width="23" x="171" y="328"/>      
+      </multiplicity>    
     </end>    
     <end type="TARGET" refId="2" navigable="true"/>    
     <display labels="true" multiplicity="true"/>  
   </association>  
+  <association id="8">    
+    <end type="SOURCE" refId="1" navigable="false">      
+      <attribute id="9" name="dept">        
+        <position height="18" width="31" x="407" y="325"/>      
+      </attribute>      
+      <multiplicity id="10" minimum="0" maximum="1">        
+        <position height="16" width="23" x="384" y="340"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="4" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
   <association id="11">    
     <end type="SOURCE" refId="1" navigable="false">      
-      <attribute id="12" name="stock"/>      
-      <multiplicity id="13" minimum="0" maximum="1"/>    
+      <attribute id="12" name="stock">        
+        <position height="0" width="0" x="-2" y="36"/>      
+      </attribute>      
+      <multiplicity id="13" minimum="0" maximum="1">        
+        <position height="0" width="0" x="-2" y="36"/>      
+      </multiplicity>    
     </end>    
     <end type="TARGET" refId="3" navigable="true"/>    
     <display labels="true" multiplicity="true"/>  

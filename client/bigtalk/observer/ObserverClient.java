@@ -1,6 +1,6 @@
 package bigtalk.observer;
 /**
- * 觀察者模式客戶端
+ * 觀察者模式-客戶端
  * @author Yan
  *
  */

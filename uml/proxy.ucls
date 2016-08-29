@@ -4,7 +4,7 @@
   <class id="1" language="java" name="bigtalk.proxy.Pursuit" project="BigTalkDesignPattern" 
     file="/BigTalkDesignPattern/src/bigtalk/proxy/Pursuit.java" binary="false" corner="BOTTOM_RIGHT">    
     <position height="-1" width="-1" x="184" y="317"/>    
-    <display autosize="true" stereotype="false" package="false" initial-value="false" signature="true" 
+    <display autosize="true" stereotype="true" package="false" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="false" package="false" protected="false" private="false" static="true"/>      
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
@@ -13,7 +13,7 @@
   <interface id="2" language="java" name="bigtalk.proxy.IGiveGift" project="BigTalkDesignPattern" 
     file="/BigTalkDesignPattern/src/bigtalk/proxy/IGiveGift.java" binary="false" corner="BOTTOM_RIGHT">    
     <position height="-1" width="-1" x="303" y="125"/>    
-    <display autosize="true" stereotype="false" package="false" initial-value="false" signature="true" 
+    <display autosize="true" stereotype="true" package="false" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="false" package="false" protected="false" private="false" static="true"/>      
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
@@ -22,28 +22,32 @@
   <class id="3" language="java" name="bigtalk.proxy.Proxy" project="BigTalkDesignPattern" 
     file="/BigTalkDesignPattern/src/bigtalk/proxy/Proxy.java" binary="false" corner="BOTTOM_RIGHT">    
     <position height="141" width="108" x="421" y="248"/>    
-    <display autosize="false" stereotype="false" package="false" initial-value="false" signature="true" 
+    <display autosize="false" stereotype="true" package="false" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="false" package="false" protected="false" private="false" static="true"/>      
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </class>  
-  <realization id="4">    
-    <end type="SOURCE" refId="3"/>    
-    <end type="TARGET" refId="2"/>  
-  </realization>  
-  <realization id="5">    
-    <end type="SOURCE" refId="1"/>    
-    <end type="TARGET" refId="2"/>  
-  </realization>  
-  <association id="6">    
+  <association id="4">    
     <end type="SOURCE" refId="3" navigable="false">      
-      <attribute id="7" name="orgPursuit"/>      
-      <multiplicity id="8" minimum="0" maximum="1"/>    
+      <attribute id="5" name="orgPursuit">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </attribute>      
+      <multiplicity id="6" minimum="0" maximum="1">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
     </end>    
     <end type="TARGET" refId="1" navigable="true"/>    
     <display labels="true" multiplicity="true"/>  
   </association>  
+  <realization id="7">    
+    <end type="SOURCE" refId="3"/>    
+    <end type="TARGET" refId="2"/>  
+  </realization>  
+  <realization id="8">    
+    <end type="SOURCE" refId="1"/>    
+    <end type="TARGET" refId="2"/>  
+  </realization>  
   <classifier-display autosize="true" stereotype="false" package="false" initial-value="false" signature="true" 
     sort-features="false" accessors="true" visibility="true">    
     <attributes public="false" package="false" protected="false" private="false" static="true"/>    
