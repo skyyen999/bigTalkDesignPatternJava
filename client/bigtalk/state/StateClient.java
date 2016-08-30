@@ -1,6 +1,6 @@
 package bigtalk.state;
 
-import bigtalk.state.Work;
+import c16.state.Work;
 
 /**
  * 上班狀態-客戶端

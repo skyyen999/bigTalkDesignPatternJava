@@ -1,5 +1,9 @@
 package bigtalk.template;
 
+import c10.template.TestPaper;
+import c10.template.TestPaperA;
+import c10.template.TestPaperB;
+
 /**
  * 考試卷-客戶端
  * 一開始TestPaper類別就已經實作出題的method QuestionA(), QuestionB(), QuestionC() <br>

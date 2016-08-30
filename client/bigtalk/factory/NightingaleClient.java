@@ -1,5 +1,10 @@
 package bigtalk.factory;
 
+import c08.factory.IFactory;
+import c08.factory.Nightingale;
+import c08.factory.SimpleFactory;
+import c08.factory.VolunteerFactory;
+
 /**
  * 南丁格爾老人服務團-客戶端
  * @author Yan

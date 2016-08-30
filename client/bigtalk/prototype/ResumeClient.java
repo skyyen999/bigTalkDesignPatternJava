@@ -1,4 +1,7 @@
 package bigtalk.prototype;
+
+import c09.prototype.Resume;
+
 /**
  * 履歷-客戶端 
  * @author Yan

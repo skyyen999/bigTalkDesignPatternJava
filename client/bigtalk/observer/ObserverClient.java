@@ -1,4 +1,12 @@
 package bigtalk.observer;
+
+import c14.observer.Boss;
+import c14.observer.NBAObserver;
+import c14.observer.Observer;
+import c14.observer.Secretary;
+import c14.observer.StockObserver;
+import c14.observer.Subject;
+
 /**
  * 觀察者模式-客戶端
  * @author Yan

@@ -2,11 +2,11 @@ package creational.bigtalk.strategy;
 
 import org.junit.Test;
 
-import bigtalk.strategy.CashContext;
-import bigtalk.strategy.CashContextPro;
-import bigtalk.strategy.simpleFactory.CashDiscount;
-import bigtalk.strategy.simpleFactory.CashNomal;
-import bigtalk.strategy.simpleFactory.CashReturn;
+import c02.strategy.CashContext;
+import c02.strategy.CashContextPro;
+import c02.strategy.simpleFactory.CashDiscount;
+import c02.strategy.simpleFactory.CashNomal;
+import c02.strategy.simpleFactory.CashReturn;
 
 public class CashClientStrategy {
 	@Test

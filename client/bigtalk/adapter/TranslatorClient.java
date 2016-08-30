@@ -1,8 +1,8 @@
 package bigtalk.adapter;
 
-import bigtalk.adapter.CenterPlayer;
-import bigtalk.adapter.Player;
-import bigtalk.adapter.Translator;
+import c17.adapter.CenterPlayer;
+import c17.adapter.Player;
+import c17.adapter.Translator;
 
 /**
  * 轉接器-客戶端

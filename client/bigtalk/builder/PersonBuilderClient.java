@@ -1,5 +1,9 @@
 package bigtalk.builder;
 
+import c13.builder.GundamBuilder;
+import c13.builder.LinePersonBuilder;
+import c13.builder.PersonDerector;
+
 /**
  * builder pattern 與 factory pattern的差異處<br>
  * factory pattern 關注一個物件如何產生 <br>

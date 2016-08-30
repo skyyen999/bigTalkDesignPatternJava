@@ -2,9 +2,9 @@ package creational.bigtalk.simpleFactory;
 
 import org.junit.Test;
 
-import bigtalk.simpleFactory.calulator.Calculator;
-import bigtalk.simpleFactory.calulator.CalculatorA;
-import bigtalk.simpleFactory.calulator.CalculatorFactory;
+import c01.simpleFactory.Calculator;
+import c01.simpleFactory.CalculatorA;
+import c01.simpleFactory.CalculatorFactory;
 
 /**
  * 工廠模式 -計算機用戶端程式<br>
