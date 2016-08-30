@@ -1,58 +1,58 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <class-diagram version="1.1.10" icons="false" always-add-relationships="false" generalizations="true" 
   realizations="true" associations="true" dependencies="false" nesting-relationships="true" router="FAN">  
-  <class id="1" language="java" name="bigtalk.adapter.Player" project="BigTalkDesignPattern" 
-    file="/BigTalkDesignPattern/src/bigtalk/adapter/Player.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="105" width="86" x="331" y="129"/>    
-    <display autosize="true" stereotype="false" package="true" initial-value="false" signature="true" 
+  <class id="1" language="java" name="c17.adapter.ForeignCenterPlayer" project="bigtalkDesingPatternJava" 
+    file="/bigtalkDesingPatternJava/src/c17/adapter/ForeignCenterPlayer.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="704" y="295"/>    
+    <display autosize="true" stereotype="true" package="false" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="false" package="false" protected="false" private="false" static="true"/>      
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </class>  
-  <class id="2" language="java" name="bigtalk.adapter.CenterPlayer" project="BigTalkDesignPattern" 
-    file="/BigTalkDesignPattern/src/bigtalk/adapter/CenterPlayer.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="89" width="114" x="254" y="274"/>    
-    <display autosize="true" stereotype="false" package="true" initial-value="false" signature="true" 
+  <class id="2" language="java" name="c17.adapter.CenterPlayer" project="bigtalkDesingPatternJava" 
+    file="/bigtalkDesingPatternJava/src/c17/adapter/CenterPlayer.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="344" y="296"/>    
+    <display autosize="true" stereotype="true" package="false" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="false" package="false" protected="false" private="false" static="true"/>      
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </class>  
-  <class id="3" language="java" name="bigtalk.adapter.Translator" project="BigTalkDesignPattern" 
-    file="/BigTalkDesignPattern/src/bigtalk/adapter/Translator.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="89" width="101" x="408" y="274"/>    
-    <display autosize="true" stereotype="false" package="true" initial-value="false" signature="true" 
+  <class id="3" language="java" name="c17.adapter.Translator" project="bigtalkDesingPatternJava" 
+    file="/bigtalkDesingPatternJava/src/c17/adapter/Translator.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="491" y="296"/>    
+    <display autosize="true" stereotype="true" package="false" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="false" package="false" protected="false" private="false" static="true"/>      
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </class>  
-  <class id="4" language="java" name="bigtalk.adapter.ForeignCenterPlayer" project="BigTalkDesignPattern" 
-    file="/BigTalkDesignPattern/src/bigtalk/adapter/ForeignCenterPlayer.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="679" y="319"/>    
-    <display autosize="true" stereotype="false" package="true" initial-value="false" signature="true" 
+  <class id="4" language="java" name="c17.adapter.Player" project="bigtalkDesingPatternJava" 
+    file="/bigtalkDesingPatternJava/src/c17/adapter/Player.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="407" y="159"/>    
+    <display autosize="true" stereotype="true" package="false" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="false" package="false" protected="false" private="false" static="true"/>      
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </class>  
-  <generalization id="5">    
-    <end type="SOURCE" refId="3"/>    
-    <end type="TARGET" refId="1"/>  
-  </generalization>  
-  <generalization id="6">    
-    <end type="SOURCE" refId="2"/>    
-    <end type="TARGET" refId="1"/>  
-  </generalization>  
-  <association id="7">    
+  <association id="5">    
     <end type="SOURCE" refId="3" navigable="false">      
-      <attribute id="8" name="wjzf"/>      
-      <multiplicity id="9" minimum="0" maximum="1"/>    
+      <attribute id="6" name="wjzf"/>      
+      <multiplicity id="7" minimum="0" maximum="1"/>    
     </end>    
-    <end type="TARGET" refId="4" navigable="true"/>    
+    <end type="TARGET" refId="1" navigable="true"/>    
     <display labels="true" multiplicity="true"/>  
   </association>  
+  <generalization id="8">    
+    <end type="SOURCE" refId="3"/>    
+    <end type="TARGET" refId="4"/>  
+  </generalization>  
+  <generalization id="9">    
+    <end type="SOURCE" refId="2"/>    
+    <end type="TARGET" refId="4"/>  
+  </generalization>  
   <classifier-display autosize="true" stereotype="false" package="true" initial-value="false" signature="true" 
     sort-features="false" accessors="true" visibility="true">    
     <attributes public="false" package="false" protected="false" private="false" static="true"/>    
