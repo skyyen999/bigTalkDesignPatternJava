@@ -8,8 +8,8 @@ import c01.simpleFactory.CalculatorFactory;
 
 /**
  * 工廠模式 -計算機用戶端程式<br>
- * calculatorA()是測試沒有使用工廠模式的計算機<br>
- * CalculatorFactory()是使用工廠模式的計算機
+ * calculatorA()是測試沒有使用簡安工廠模式的計算機<br>
+ * CalculatorFactory()是使用簡單工廠模式的計算機
  * @author Yan
  *
  */

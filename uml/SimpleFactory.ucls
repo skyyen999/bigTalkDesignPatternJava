@@ -1,85 +1,79 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <class-diagram version="1.1.10" icons="false" always-add-relationships="false" generalizations="true" 
   realizations="true" associations="true" dependencies="false" nesting-relationships="true" router="FAN">  
-  <class id="1" language="java" name="bigtalk.simpleFactory.calulator.CalculatorFactory" project="BigTalkDesignPattern" 
-    file="/BigTalkDesignPattern/src/bigtalk/simpleFactory/calulator/CalculatorFactory.java" binary="false" 
-    corner="BOTTOM_RIGHT">    
-    <position height="87" width="170" x="128" y="83"/>    
-    <display autosize="false" stereotype="true" package="false" initial-value="false" signature="true" 
-      sort-features="false" accessors="true" visibility="false">      
-      <attributes public="false" package="false" protected="false" private="false" static="false"/>      
-      <operations public="true" package="true" protected="true" private="true" static="true"/>    
-    </display>  
-  </class>  
-  <class id="2" language="java" name="bigtalk.simpleFactory.calulator.CalulatorSub" project="BigTalkDesignPattern" 
-    file="/BigTalkDesignPattern/src/bigtalk/simpleFactory/calulator/CalulatorSub.java" binary="false" 
-    corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="244" y="311"/>    
-    <display autosize="true" stereotype="true" package="false" initial-value="false" signature="true" 
-      sort-features="false" accessors="true" visibility="true">      
-      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
-      <operations public="true" package="true" protected="true" private="true" static="true"/>    
-    </display>  
-  </class>  
-  <class id="3" language="java" name="bigtalk.simpleFactory.calulator.CalulatorMul" project="BigTalkDesignPattern" 
-    file="/BigTalkDesignPattern/src/bigtalk/simpleFactory/calulator/CalulatorMul.java" binary="false" 
-    corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="393" y="309"/>    
-    <display autosize="true" stereotype="true" package="false" initial-value="false" signature="true" 
-      sort-features="false" accessors="true" visibility="true">      
-      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
-      <operations public="true" package="true" protected="true" private="true" static="true"/>    
-    </display>  
-  </class>  
-  <class id="4" language="java" name="bigtalk.simpleFactory.calulator.Calculator" project="BigTalkDesignPattern" 
-    file="/BigTalkDesignPattern/src/bigtalk/simpleFactory/calulator/Calculator.java" binary="false" 
-    corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="451" y="127"/>    
-    <display autosize="true" stereotype="true" package="false" initial-value="false" signature="true" 
+  <class id="1" language="java" name="c01.simpleFactory.Calculator" project="bigtalkDesingPatternJava" 
+    file="/bigtalkDesingPatternJava/src/c01/simpleFactory/Calculator.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="475" y="209"/>    
+    <display autosize="true" stereotype="false" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="false" package="false" protected="false" private="false" static="true"/>      
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </class>  
-  <class id="5" language="java" name="bigtalk.simpleFactory.calulator.CalulatorAdd" project="BigTalkDesignPattern" 
-    file="/BigTalkDesignPattern/src/bigtalk/simpleFactory/calulator/CalulatorAdd.java" binary="false" 
-    corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="542" y="309"/>    
-    <display autosize="true" stereotype="true" package="false" initial-value="false" signature="true" 
+  <class id="2" language="java" name="c01.simpleFactory.CalulatorAdd" project="bigtalkDesingPatternJava" 
+    file="/bigtalkDesingPatternJava/src/c01/simpleFactory/CalulatorAdd.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="283" y="444"/>    
+    <display autosize="true" stereotype="false" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
-      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <attributes public="false" package="false" protected="false" private="false" static="true"/>      
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </class>  
-  <class id="6" language="java" name="bigtalk.simpleFactory.calulator.CalulatorDiv" project="BigTalkDesignPattern" 
-    file="/BigTalkDesignPattern/src/bigtalk/simpleFactory/calulator/CalulatorDiv.java" binary="false" 
-    corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="687" y="309"/>    
-    <display autosize="true" stereotype="true" package="false" initial-value="false" signature="true" 
+  <class id="3" language="java" name="c01.simpleFactory.CalulatorDiv" project="bigtalkDesingPatternJava" 
+    file="/bigtalkDesingPatternJava/src/c01/simpleFactory/CalulatorDiv.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="411" y="444"/>    
+    <display autosize="true" stereotype="false" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
-      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <attributes public="false" package="false" protected="false" private="false" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="4" language="java" name="c01.simpleFactory.CalulatorSub" project="bigtalkDesingPatternJava" 
+    file="/bigtalkDesingPatternJava/src/c01/simpleFactory/CalulatorSub.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="539" y="444"/>    
+    <display autosize="true" stereotype="false" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="false" package="false" protected="false" private="false" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="5" language="java" name="c01.simpleFactory.CalculatorFactory" project="bigtalkDesingPatternJava" 
+    file="/bigtalkDesingPatternJava/src/c01/simpleFactory/CalculatorFactory.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="265" y="210"/>    
+    <display autosize="true" stereotype="false" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="false" package="false" protected="false" private="false" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="6" language="java" name="c01.simpleFactory.CalulatorMul" project="bigtalkDesingPatternJava" 
+    file="/bigtalkDesingPatternJava/src/c01/simpleFactory/CalulatorMul.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="667" y="444"/>    
+    <display autosize="true" stereotype="false" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="false" package="false" protected="false" private="false" static="true"/>      
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </class>  
   <generalization id="7">    
     <end type="SOURCE" refId="6"/>    
-    <end type="TARGET" refId="4"/>  
+    <end type="TARGET" refId="1"/>  
   </generalization>  
   <generalization id="8">    
-    <end type="SOURCE" refId="5"/>    
-    <end type="TARGET" refId="4"/>  
+    <end type="SOURCE" refId="2"/>    
+    <end type="TARGET" refId="1"/>  
   </generalization>  
   <generalization id="9">    
-    <end type="SOURCE" refId="3"/>    
-    <end type="TARGET" refId="4"/>  
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="1"/>  
   </generalization>  
   <dependency id="10">    
-    <end type="SOURCE" refId="1"/>    
-    <end type="TARGET" refId="4"/>  
+    <end type="SOURCE" refId="5"/>    
+    <end type="TARGET" refId="1"/>  
   </dependency>  
   <generalization id="11">    
-    <end type="SOURCE" refId="2"/>    
-    <end type="TARGET" refId="4"/>  
+    <end type="SOURCE" refId="3"/>    
+    <end type="TARGET" refId="1"/>  
   </generalization>  
   <classifier-display autosize="true" stereotype="false" package="true" initial-value="false" signature="true" 
     sort-features="false" accessors="true" visibility="true">    
