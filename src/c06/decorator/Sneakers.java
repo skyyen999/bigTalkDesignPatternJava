@@ -9,10 +9,10 @@ public class Sneakers extends Finery {
 		
 	}
 	
-	public Sneakers(Person p) {
+	public Sneakers(Finery p) {
 		super(p);
 	}
-	protected Person component;	
+	protected Finery component;	
 	@Override
 	public void show() {
 		System.out.print("球鞋 ");

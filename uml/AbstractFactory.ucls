@@ -1,145 +1,170 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <class-diagram version="1.1.10" icons="false" always-add-relationships="false" generalizations="true" 
   realizations="true" associations="true" dependencies="false" nesting-relationships="true" router="FAN">  
-  <interface id="1" language="java" name="bigtalk.abstractFactory.IDeptDao" project="BigTalkDesignPattern" 
-    file="/BigTalkDesignPattern/src/bigtalk/abstractFactory/IDeptDao.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="245" y="350"/>    
+  <class id="1" language="java" name="c15.abstractFactory.SqlServerDeptDao" project="bigtalkDesingPatternJava" 
+    file="/bigtalkDesingPatternJava/src/c15/abstractFactory/SqlServerDeptDao.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="118" y="393"/>    
+    <display autosize="true" stereotype="true" package="false" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="false" package="false" protected="false" private="false" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <interface id="2" language="java" name="c15.abstractFactory.IFactory" project="bigtalkDesingPatternJava" 
+    file="/bigtalkDesingPatternJava/src/c15/abstractFactory/IFactory.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="379" y="46"/>    
     <display autosize="true" stereotype="true" package="false" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="false" package="false" protected="false" private="false" static="true"/>      
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </interface>  
-  <class id="2" language="java" name="bigtalk.abstractFactory.SqlServerDeptDao" project="BigTalkDesignPattern" 
-    file="/BigTalkDesignPattern/src/bigtalk/abstractFactory/SqlServerDeptDao.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="151" y="472"/>    
+  <class id="3" language="java" name="c15.abstractFactory.User" project="bigtalkDesingPatternJava" 
+    file="/bigtalkDesingPatternJava/src/c15/abstractFactory/User.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="575" y="532"/>    
     <display autosize="true" stereotype="true" package="false" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="false" package="false" protected="false" private="false" static="true"/>      
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </class>  
-  <interface id="3" language="java" name="bigtalk.abstractFactory.IFactory" project="BigTalkDesignPattern" 
-    file="/BigTalkDesignPattern/src/bigtalk/abstractFactory/IFactory.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="546" y="49"/>    
-    <display autosize="true" stereotype="true" package="false" initial-value="false" signature="true" 
-      sort-features="false" accessors="true" visibility="true">      
-      <attributes public="false" package="false" protected="false" private="false" static="true"/>      
-      <operations public="true" package="true" protected="true" private="true" static="true"/>    
-    </display>  
-  </interface>  
-  <class id="4" language="java" name="bigtalk.abstractFactory.OracleDeptDao" project="BigTalkDesignPattern" 
-    file="/BigTalkDesignPattern/src/bigtalk/abstractFactory/OracleDeptDao.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="360" y="473"/>    
+  <class id="4" language="java" name="c15.abstractFactory.SqlServerUserDao" project="bigtalkDesingPatternJava" 
+    file="/bigtalkDesingPatternJava/src/c15/abstractFactory/SqlServerUserDao.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="499" y="396"/>    
     <display autosize="true" stereotype="true" package="false" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="false" package="false" protected="false" private="false" static="true"/>      
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </class>  
-  <class id="5" language="java" name="bigtalk.abstractFactory.OracleDaoFactory" project="BigTalkDesignPattern" 
-    file="/BigTalkDesignPattern/src/bigtalk/abstractFactory/OracleDaoFactory.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="458" y="191"/>    
-    <display autosize="true" stereotype="true" package="false" initial-value="false" signature="true" 
-      sort-features="false" accessors="true" visibility="true">      
-      <attributes public="false" package="false" protected="false" private="false" static="true"/>      
-      <operations public="true" package="true" protected="true" private="true" static="true"/>    
-    </display>  
-  </class>  
-  <class id="6" language="java" name="bigtalk.abstractFactory.SqlServerDaoFactory" project="BigTalkDesignPattern" 
-    file="/BigTalkDesignPattern/src/bigtalk/abstractFactory/SqlServerDaoFactory.java" binary="false" 
+  <class id="5" language="java" name="c15.abstractFactory.SqlServerDaoFactory" project="bigtalkDesingPatternJava" 
+    file="/bigtalkDesingPatternJava/src/c15/abstractFactory/SqlServerDaoFactory.java" binary="false" 
     corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="630" y="190"/>    
+    <position height="-1" width="-1" x="283" y="159"/>    
     <display autosize="true" stereotype="true" package="false" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="false" package="false" protected="false" private="false" static="true"/>      
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </class>  
-  <interface id="7" language="java" name="bigtalk.abstractFactory.IUserDao" project="BigTalkDesignPattern" 
-    file="/BigTalkDesignPattern/src/bigtalk/abstractFactory/IUserDao.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="774" y="329"/>    
+  <interface id="6" language="java" name="c15.abstractFactory.IDeptDao" project="bigtalkDesingPatternJava" 
+    file="/bigtalkDesingPatternJava/src/c15/abstractFactory/IDeptDao.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="199" y="261"/>    
     <display autosize="true" stereotype="true" package="false" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="false" package="false" protected="false" private="false" static="true"/>      
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </interface>  
-  <class id="8" language="java" name="bigtalk.abstractFactory.SqlServerUserDao" project="BigTalkDesignPattern" 
-    file="/BigTalkDesignPattern/src/bigtalk/abstractFactory/SqlServerUserDao.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="703" y="479"/>    
+  <class id="7" language="java" name="c15.abstractFactory.OracleDaoFactory" project="bigtalkDesingPatternJava" 
+    file="/bigtalkDesingPatternJava/src/c15/abstractFactory/OracleDaoFactory.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="467" y="159"/>    
     <display autosize="true" stereotype="true" package="false" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="false" package="false" protected="false" private="false" static="true"/>      
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </class>  
-  <class id="9" language="java" name="bigtalk.abstractFactory.OracleUserDao" project="BigTalkDesignPattern" 
-    file="/BigTalkDesignPattern/src/bigtalk/abstractFactory/OracleUserDao.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="853" y="479"/>    
+  <class id="8" language="java" name="c15.abstractFactory.OracleDeptDao" project="bigtalkDesingPatternJava" 
+    file="/bigtalkDesingPatternJava/src/c15/abstractFactory/OracleDeptDao.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="288" y="393"/>    
     <display autosize="true" stereotype="true" package="false" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="false" package="false" protected="false" private="false" static="true"/>      
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </class>  
-  <realization id="10">    
-    <end type="SOURCE" refId="6"/>    
-    <end type="TARGET" refId="3"/>  
-  </realization>  
-  <realization id="11">    
+  <class id="9" language="java" name="c15.abstractFactory.Department" project="bigtalkDesingPatternJava" 
+    file="/bigtalkDesingPatternJava/src/c15/abstractFactory/Department.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="189" y="530"/>    
+    <display autosize="true" stereotype="true" package="false" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="false" package="false" protected="false" private="false" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <interface id="10" language="java" name="c15.abstractFactory.IUserDao" project="bigtalkDesingPatternJava" 
+    file="/bigtalkDesingPatternJava/src/c15/abstractFactory/IUserDao.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="558" y="262"/>    
+    <display autosize="true" stereotype="true" package="false" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="false" package="false" protected="false" private="false" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <class id="11" language="java" name="c15.abstractFactory.OracleUserDao" project="bigtalkDesingPatternJava" 
+    file="/bigtalkDesingPatternJava/src/c15/abstractFactory/OracleUserDao.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="645" y="396"/>    
+    <display autosize="true" stereotype="true" package="false" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="false" package="false" protected="false" private="false" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <realization id="12">    
     <end type="SOURCE" refId="8"/>    
-    <end type="TARGET" refId="7"/>  
+    <end type="TARGET" refId="6"/>  
   </realization>  
-  <dependency id="12">    
-    <bendpoint x="458" y="361"/>    
-    <bendpoint x="620" y="361"/>    
-    <bendpoint x="620" y="252"/>    
-    <bendpoint x="640" y="252"/>    
-    <bendpoint x="639" y="271"/>    
-    <bendpoint x="848" y="270"/>    
-    <end type="SOURCE" refId="5"/>    
-    <end type="TARGET" refId="9"/>  
-  </dependency>  
   <realization id="13">    
+    <end type="SOURCE" refId="7"/>    
+    <end type="TARGET" refId="2"/>  
+  </realization>  
+  <dependency id="14">    
+    <bendpoint x="116" y="159"/>    
     <end type="SOURCE" refId="5"/>    
-    <end type="TARGET" refId="3"/>  
-  </realization>  
-  <realization id="14">    
-    <end type="SOURCE" refId="4"/>    
     <end type="TARGET" refId="1"/>  
-  </realization>  
+  </dependency>  
   <dependency id="15">    
-    <bendpoint x="360" y="188"/>    
+    <bendpoint x="283" y="285"/>    
+    <bendpoint x="353" y="285"/>    
+    <bendpoint x="357" y="262"/>    
+    <bendpoint x="378" y="264"/>    
+    <bendpoint x="397" y="264"/>    
+    <bendpoint x="399" y="286"/>    
+    <bendpoint x="496" y="285"/>    
     <end type="SOURCE" refId="5"/>    
     <end type="TARGET" refId="4"/>  
   </dependency>  
   <dependency id="16">    
-    <bendpoint x="629" y="473"/>    
-    <end type="SOURCE" refId="6"/>    
+    <end type="SOURCE" refId="1"/>    
+    <end type="TARGET" refId="9"/>  
+  </dependency>  
+  <realization id="17">    
+    <end type="SOURCE" refId="1"/>    
+    <end type="TARGET" refId="6"/>  
+  </realization>  
+  <dependency id="18">    
+    <bendpoint x="643" y="160"/>    
+    <end type="SOURCE" refId="7"/>    
+    <end type="TARGET" refId="11"/>  
+  </dependency>  
+  <dependency id="19">    
+    <end type="SOURCE" refId="11"/>    
+    <end type="TARGET" refId="3"/>  
+  </dependency>  
+  <realization id="20">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="10"/>  
+  </realization>  
+  <realization id="21">    
+    <end type="SOURCE" refId="5"/>    
+    <end type="TARGET" refId="2"/>  
+  </realization>  
+  <dependency id="22">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="3"/>  
+  </dependency>  
+  <dependency id="23">    
+    <end type="SOURCE" refId="8"/>    
+    <end type="TARGET" refId="9"/>  
+  </dependency>  
+  <dependency id="24">    
+    <end type="SOURCE" refId="7"/>    
     <end type="TARGET" refId="8"/>  
   </dependency>  
-  <dependency id="17">    
-    <bendpoint x="578" y="277"/>    
-    <bendpoint x="469" y="281"/>    
-    <bendpoint x="466" y="258"/>    
-    <bendpoint x="448" y="259"/>    
-    <bendpoint x="447" y="280"/>    
-    <bendpoint x="371" y="277"/>    
-    <bendpoint x="369" y="255"/>    
-    <bendpoint x="351" y="257"/>    
-    <bendpoint x="349" y="277"/>    
-    <bendpoint x="151" y="279"/>    
-    <end type="SOURCE" refId="6"/>    
-    <end type="TARGET" refId="2"/>  
-  </dependency>  
-  <realization id="18">    
-    <end type="SOURCE" refId="2"/>    
-    <end type="TARGET" refId="1"/>  
-  </realization>  
-  <realization id="19">    
-    <end type="SOURCE" refId="9"/>    
-    <end type="TARGET" refId="7"/>  
+  <realization id="25">    
+    <end type="SOURCE" refId="11"/>    
+    <end type="TARGET" refId="10"/>  
   </realization>  
   <classifier-display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
     sort-features="false" accessors="true" visibility="true">    

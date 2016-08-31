@@ -5,12 +5,12 @@ package c06.decorator;
  *
  */
 public class TShirts extends Finery {
-	public TShirts(Person p) {
+	public TShirts(Finery p) {
 		super(p);
 	}
 	public TShirts() {
 	}
-	protected Person component;	
+	protected Finery component;	
 	@Override
 	public void show() {
 		System.out.print("大T ");

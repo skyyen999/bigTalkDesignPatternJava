@@ -3,7 +3,7 @@
   realizations="true" associations="true" dependencies="false" nesting-relationships="true" router="FAN">  
   <class id="1" language="java" name="c17.adapter.ForeignCenterPlayer" project="bigtalkDesingPatternJava" 
     file="/bigtalkDesingPatternJava/src/c17/adapter/ForeignCenterPlayer.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="704" y="295"/>    
+    <position height="-1" width="-1" x="468" y="265"/>    
     <display autosize="true" stereotype="true" package="false" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="false" package="false" protected="false" private="false" static="true"/>      
@@ -12,7 +12,7 @@
   </class>  
   <class id="2" language="java" name="c17.adapter.CenterPlayer" project="bigtalkDesingPatternJava" 
     file="/bigtalkDesingPatternJava/src/c17/adapter/CenterPlayer.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="344" y="296"/>    
+    <position height="-1" width="-1" x="108" y="266"/>    
     <display autosize="true" stereotype="true" package="false" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="false" package="false" protected="false" private="false" static="true"/>      
@@ -21,7 +21,7 @@
   </class>  
   <class id="3" language="java" name="c17.adapter.Translator" project="bigtalkDesingPatternJava" 
     file="/bigtalkDesingPatternJava/src/c17/adapter/Translator.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="491" y="296"/>    
+    <position height="-1" width="-1" x="255" y="266"/>    
     <display autosize="true" stereotype="true" package="false" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="false" package="false" protected="false" private="false" static="true"/>      
@@ -30,7 +30,7 @@
   </class>  
   <class id="4" language="java" name="c17.adapter.Player" project="bigtalkDesingPatternJava" 
     file="/bigtalkDesingPatternJava/src/c17/adapter/Player.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="407" y="159"/>    
+    <position height="-1" width="-1" x="181" y="110"/>    
     <display autosize="true" stereotype="true" package="false" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="false" package="false" protected="false" private="false" static="true"/>      
@@ -39,18 +39,22 @@
   </class>  
   <association id="5">    
     <end type="SOURCE" refId="3" navigable="false">      
-      <attribute id="6" name="wjzf"/>      
-      <multiplicity id="7" minimum="0" maximum="1"/>    
+      <attribute id="6" name="wjzf">        
+        <position height="0" width="0" x="-236" y="-30"/>      
+      </attribute>      
+      <multiplicity id="7" minimum="0" maximum="1">        
+        <position height="0" width="0" x="-236" y="-30"/>      
+      </multiplicity>    
     </end>    
     <end type="TARGET" refId="1" navigable="true"/>    
     <display labels="true" multiplicity="true"/>  
   </association>  
   <generalization id="8">    
-    <end type="SOURCE" refId="3"/>    
+    <end type="SOURCE" refId="2"/>    
     <end type="TARGET" refId="4"/>  
   </generalization>  
   <generalization id="9">    
-    <end type="SOURCE" refId="2"/>    
+    <end type="SOURCE" refId="3"/>    
     <end type="TARGET" refId="4"/>  
   </generalization>  
   <classifier-display autosize="true" stereotype="false" package="true" initial-value="false" signature="true" 

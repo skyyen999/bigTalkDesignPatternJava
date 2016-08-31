@@ -1,54 +1,54 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <class-diagram version="1.1.10" icons="false" always-add-relationships="false" generalizations="true" 
   realizations="true" associations="true" dependencies="false" nesting-relationships="true" router="FAN">  
-  <class id="1" language="java" name="bigtalk.observer.Boss" project="BigTalkDesignPattern" 
-    file="/BigTalkDesignPattern/src/bigtalk/observer/Boss.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="125" y="248"/>    
+  <class id="1" language="java" name="c14.observer.Observer" project="bigtalkDesingPatternJava" 
+    file="/bigtalkDesingPatternJava/src/c14/observer/Observer.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="237" y="78"/>    
     <display autosize="true" stereotype="true" package="false" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="false" package="false" protected="false" private="false" static="true"/>      
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </class>  
-  <class id="2" language="java" name="bigtalk.observer.NBAObserver" project="BigTalkDesignPattern" 
-    file="/BigTalkDesignPattern/src/bigtalk/observer/NBAObserver.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="550" y="249"/>    
+  <class id="2" language="java" name="c14.observer.StockObserver" project="bigtalkDesingPatternJava" 
+    file="/bigtalkDesingPatternJava/src/c14/observer/StockObserver.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="126" y="252"/>    
     <display autosize="true" stereotype="true" package="false" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="false" package="false" protected="false" private="false" static="true"/>      
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </class>  
-  <class id="3" language="java" name="bigtalk.observer.Subject" project="BigTalkDesignPattern" 
-    file="/BigTalkDesignPattern/src/bigtalk/observer/Subject.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="218" y="95"/>    
+  <class id="3" language="java" name="c14.observer.Subject" project="bigtalkDesingPatternJava" 
+    file="/bigtalkDesingPatternJava/src/c14/observer/Subject.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="582" y="79"/>    
     <display autosize="true" stereotype="true" package="false" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="false" package="false" protected="false" private="false" static="true"/>      
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </class>  
-  <class id="4" language="java" name="bigtalk.observer.Observer" project="BigTalkDesignPattern" 
-    file="/BigTalkDesignPattern/src/bigtalk/observer/Observer.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="80" width="142" x="566" y="67"/>    
-    <display autosize="false" stereotype="true" package="false" initial-value="false" signature="true" 
-      sort-features="false" accessors="true" visibility="true">      
-      <attributes public="false" package="false" protected="false" private="false" static="true"/>      
-      <operations public="true" package="true" protected="true" private="true" static="true"/>    
-    </display>  
-  </class>  
-  <class id="5" language="java" name="bigtalk.observer.StockObserver" project="BigTalkDesignPattern" 
-    file="/BigTalkDesignPattern/src/bigtalk/observer/StockObserver.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="735" y="248"/>    
+  <class id="4" language="java" name="c14.observer.Secretary" project="bigtalkDesingPatternJava" 
+    file="/bigtalkDesingPatternJava/src/c14/observer/Secretary.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="494" y="255"/>    
     <display autosize="true" stereotype="true" package="false" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="false" package="false" protected="false" private="false" static="true"/>      
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </class>  
-  <class id="6" language="java" name="bigtalk.observer.Secretary" project="BigTalkDesignPattern" 
-    file="/BigTalkDesignPattern/src/bigtalk/observer/Secretary.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="297" y="247"/>    
+  <class id="5" language="java" name="c14.observer.Boss" project="bigtalkDesingPatternJava" 
+    file="/bigtalkDesingPatternJava/src/c14/observer/Boss.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="682" y="255"/>    
+    <display autosize="true" stereotype="true" package="false" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="false" package="false" protected="false" private="false" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="6" language="java" name="c14.observer.NBAObserver" project="bigtalkDesingPatternJava" 
+    file="/bigtalkDesingPatternJava/src/c14/observer/NBAObserver.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="311" y="255"/>    
     <display autosize="true" stereotype="true" package="false" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="false" package="false" protected="false" private="false" static="true"/>      
@@ -56,46 +56,47 @@
     </display>  
   </class>  
   <association id="7">    
-    <bendpoint x="364" y="123"/>    
-    <end type="SOURCE" refId="4" navigable="false">      
-      <attribute id="8" name="sub">        
+    <end type="SOURCE" refId="3" navigable="false">      
+      <attribute id="8" name="list">        
         <position height="0" width="0" x="0" y="0"/>      
       </attribute>      
-      <multiplicity id="9" minimum="0" maximum="1">        
+      <multiplicity id="9" minimum="0" maximum="2147483647">        
         <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="1" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <generalization id="10">    
+    <end type="SOURCE" refId="5"/>    
+    <end type="TARGET" refId="3"/>  
+  </generalization>  
+  <generalization id="11">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="3"/>  
+  </generalization>  
+  <generalization id="12">    
+    <end type="SOURCE" refId="6"/>    
+    <end type="TARGET" refId="1"/>  
+  </generalization>  
+  <association id="13">    
+    <bendpoint x="296" y="133"/>    
+    <bendpoint x="401" y="133"/>    
+    <bendpoint x="491" y="133"/>    
+    <end type="SOURCE" refId="1" navigable="false">      
+      <attribute id="14" name="sub">        
+        <position height="18" width="28" x="446" y="112"/>      
+      </attribute>      
+      <multiplicity id="15" minimum="0" maximum="1">        
+        <position height="16" width="23" x="448" y="137"/>      
       </multiplicity>    
     </end>    
     <end type="TARGET" refId="3" navigable="true"/>    
     <display labels="true" multiplicity="true"/>  
   </association>  
-  <generalization id="10">    
-    <end type="SOURCE" refId="5"/>    
-    <end type="TARGET" refId="4"/>  
-  </generalization>  
-  <generalization id="11">    
-    <end type="SOURCE" refId="2"/>    
-    <end type="TARGET" refId="4"/>  
-  </generalization>  
-  <association id="12">    
-    <bendpoint x="509" y="57"/>    
-    <end type="SOURCE" refId="3" navigable="false">      
-      <attribute id="13" name="list">        
-        <position height="0" width="0" x="0" y="0"/>      
-      </attribute>      
-      <multiplicity id="14" minimum="0" maximum="2147483647">        
-        <position height="0" width="0" x="0" y="0"/>      
-      </multiplicity>    
-    </end>    
-    <end type="TARGET" refId="4" navigable="true"/>    
-    <display labels="true" multiplicity="true"/>  
-  </association>  
-  <generalization id="15">    
-    <end type="SOURCE" refId="1"/>    
-    <end type="TARGET" refId="3"/>  
-  </generalization>  
   <generalization id="16">    
-    <end type="SOURCE" refId="6"/>    
-    <end type="TARGET" refId="3"/>  
+    <end type="SOURCE" refId="2"/>    
+    <end type="TARGET" refId="1"/>  
   </generalization>  
   <classifier-display autosize="true" stereotype="false" package="true" initial-value="false" signature="true" 
     sort-features="false" accessors="true" visibility="true">    

@@ -13,7 +13,8 @@ public class WebsiteClient {
 
 	public static void main(String[] args) {
 		WebSiteFactory f = new WebSiteFactory();
-
+		
+		//產品展示網站有兩個，但是他們其實只是共用一個物件
 		Website pd = f.getWebsiteCategory("產品展示");
 		pd.use(new User("小菜"));
 		Website pd2 = f.getWebsiteCategory("產品展示");

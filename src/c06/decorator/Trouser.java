@@ -5,12 +5,12 @@ package c06.decorator;
  *
  */
 public class Trouser extends Finery {
-	public Trouser(Person p) {
+	public Trouser(Finery p) {
 		super(p);
 	}
 	public Trouser() {
 	}
-	protected Person component;	
+	protected Finery component;	
 	@Override
 	public void show() {
 		System.out.print("垮褲 ");
