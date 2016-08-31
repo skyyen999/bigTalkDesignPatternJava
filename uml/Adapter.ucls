@@ -10,16 +10,7 @@
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </class>  
-  <class id="2" language="java" name="c17.adapter.CenterPlayer" project="bigtalkDesingPatternJava" 
-    file="/bigtalkDesingPatternJava/src/c17/adapter/CenterPlayer.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="108" y="266"/>    
-    <display autosize="true" stereotype="true" package="false" initial-value="false" signature="true" 
-      sort-features="false" accessors="true" visibility="true">      
-      <attributes public="false" package="false" protected="false" private="false" static="true"/>      
-      <operations public="true" package="true" protected="true" private="true" static="true"/>    
-    </display>  
-  </class>  
-  <class id="3" language="java" name="c17.adapter.Translator" project="bigtalkDesingPatternJava" 
+  <class id="2" language="java" name="c17.adapter.Translator" project="bigtalkDesingPatternJava" 
     file="/bigtalkDesingPatternJava/src/c17/adapter/Translator.java" binary="false" corner="BOTTOM_RIGHT">    
     <position height="-1" width="-1" x="255" y="266"/>    
     <display autosize="true" stereotype="true" package="false" initial-value="false" signature="true" 
@@ -28,34 +19,43 @@
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </class>  
-  <class id="4" language="java" name="c17.adapter.Player" project="bigtalkDesingPatternJava" 
+  <class id="3" language="java" name="c17.adapter.Player" project="bigtalkDesingPatternJava" 
     file="/bigtalkDesingPatternJava/src/c17/adapter/Player.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="181" y="110"/>    
+    <position height="-1" width="-1" x="255" y="111"/>    
     <display autosize="true" stereotype="true" package="false" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="false" package="false" protected="false" private="false" static="true"/>      
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </class>  
-  <association id="5">    
-    <end type="SOURCE" refId="3" navigable="false">      
-      <attribute id="6" name="wjzf">        
+  <class id="4" language="java" name="c17.adapter.TranslatorClient" project="bigtalkDesingPatternJava" 
+    file="/bigtalkDesingPatternJava/client/c17/adapter/TranslatorClient.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="87" y="112"/>    
+    <display autosize="true" stereotype="true" package="false" initial-value="false" signature="false" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="false" package="false" protected="false" private="false" static="true"/>      
+      <operations public="false" package="false" protected="false" private="false" static="true"/>    
+    </display>  
+  </class>  
+  <dependency id="5">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="3"/>  
+  </dependency>  
+  <association id="6">    
+    <end type="SOURCE" refId="2" navigable="false">      
+      <attribute id="7" name="wjzf">        
         <position height="0" width="0" x="-236" y="-30"/>      
       </attribute>      
-      <multiplicity id="7" minimum="0" maximum="1">        
+      <multiplicity id="8" minimum="0" maximum="1">        
         <position height="0" width="0" x="-236" y="-30"/>      
       </multiplicity>    
     </end>    
     <end type="TARGET" refId="1" navigable="true"/>    
     <display labels="true" multiplicity="true"/>  
   </association>  
-  <generalization id="8">    
-    <end type="SOURCE" refId="2"/>    
-    <end type="TARGET" refId="4"/>  
-  </generalization>  
   <generalization id="9">    
-    <end type="SOURCE" refId="3"/>    
-    <end type="TARGET" refId="4"/>  
+    <end type="SOURCE" refId="2"/>    
+    <end type="TARGET" refId="3"/>  
   </generalization>  
   <classifier-display autosize="true" stereotype="false" package="true" initial-value="false" signature="true" 
     sort-features="false" accessors="true" visibility="true">    

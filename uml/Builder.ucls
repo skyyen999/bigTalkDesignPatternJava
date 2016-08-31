@@ -3,7 +3,7 @@
   realizations="true" associations="true" dependencies="false" nesting-relationships="true" router="FAN">  
   <class id="1" language="java" name="c13.builder.GundamBuilder" project="bigtalkDesingPatternJava" 
     file="/bigtalkDesingPatternJava/src/c13/builder/GundamBuilder.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="340" y="477"/>    
+    <position height="-1" width="-1" x="395" y="372"/>    
     <display autosize="true" stereotype="true" package="false" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="false" package="false" protected="false" private="false" static="true"/>      
@@ -12,7 +12,7 @@
   </class>  
   <class id="2" language="java" name="c13.builder.LinePersonBuilder" project="bigtalkDesingPatternJava" 
     file="/bigtalkDesingPatternJava/src/c13/builder/LinePersonBuilder.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="493" y="477"/>    
+    <position height="-1" width="-1" x="548" y="372"/>    
     <display autosize="true" stereotype="true" package="false" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="false" package="false" protected="false" private="false" static="true"/>      
@@ -21,7 +21,7 @@
   </class>  
   <class id="3" language="java" name="c13.builder.PersonDerector" project="bigtalkDesingPatternJava" 
     file="/bigtalkDesingPatternJava/src/c13/builder/PersonDerector.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="413" y="93"/>    
+    <position height="-1" width="-1" x="200" y="164"/>    
     <display autosize="true" stereotype="true" package="false" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="false" package="false" protected="false" private="false" static="true"/>      
@@ -30,33 +30,33 @@
   </class>  
   <class id="4" language="java" name="c13.builder.PersonBuilder" project="bigtalkDesingPatternJava" 
     file="/bigtalkDesingPatternJava/src/c13/builder/PersonBuilder.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="413" y="268"/>    
+    <position height="-1" width="-1" x="468" y="163"/>    
     <display autosize="true" stereotype="true" package="false" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="false" package="false" protected="false" private="false" static="true"/>      
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </class>  
-  <generalization id="5">    
-    <end type="SOURCE" refId="1"/>    
-    <end type="TARGET" refId="4"/>  
-  </generalization>  
-  <generalization id="6">    
-    <end type="SOURCE" refId="2"/>    
-    <end type="TARGET" refId="4"/>  
-  </generalization>  
-  <association id="7">    
+  <association id="5">    
     <end type="SOURCE" refId="3" navigable="false">      
-      <attribute id="8" name="pb">        
+      <attribute id="6" name="pb">        
         <position height="0" width="0" x="0" y="0"/>      
       </attribute>      
-      <multiplicity id="9" minimum="0" maximum="1">        
+      <multiplicity id="7" minimum="0" maximum="1">        
         <position height="0" width="0" x="0" y="0"/>      
       </multiplicity>    
     </end>    
     <end type="TARGET" refId="4" navigable="true"/>    
     <display labels="true" multiplicity="true"/>  
   </association>  
+  <generalization id="8">    
+    <end type="SOURCE" refId="2"/>    
+    <end type="TARGET" refId="4"/>  
+  </generalization>  
+  <generalization id="9">    
+    <end type="SOURCE" refId="1"/>    
+    <end type="TARGET" refId="4"/>  
+  </generalization>  
   <classifier-display autosize="true" stereotype="false" package="true" initial-value="false" signature="true" 
     sort-features="false" accessors="true" visibility="true">    
     <attributes public="false" package="false" protected="false" private="false" static="true"/>    

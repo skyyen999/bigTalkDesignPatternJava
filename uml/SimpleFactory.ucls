@@ -4,7 +4,7 @@
   <class id="1" language="java" name="c01.simpleFactory.Calculator" project="bigtalkDesingPatternJava" 
     file="/bigtalkDesingPatternJava/src/c01/simpleFactory/Calculator.java" binary="false" corner="BOTTOM_RIGHT">    
     <position height="-1" width="-1" x="475" y="209"/>    
-    <display autosize="true" stereotype="false" package="true" initial-value="false" signature="true" 
+    <display autosize="true" stereotype="true" package="false" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="false" package="false" protected="false" private="false" static="true"/>      
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
@@ -12,8 +12,8 @@
   </class>  
   <class id="2" language="java" name="c01.simpleFactory.CalulatorAdd" project="bigtalkDesingPatternJava" 
     file="/bigtalkDesingPatternJava/src/c01/simpleFactory/CalulatorAdd.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="283" y="444"/>    
-    <display autosize="true" stereotype="false" package="true" initial-value="false" signature="true" 
+    <position height="-1" width="-1" x="282" y="345"/>    
+    <display autosize="true" stereotype="true" package="false" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="false" package="false" protected="false" private="false" static="true"/>      
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
@@ -21,8 +21,8 @@
   </class>  
   <class id="3" language="java" name="c01.simpleFactory.CalulatorDiv" project="bigtalkDesingPatternJava" 
     file="/bigtalkDesingPatternJava/src/c01/simpleFactory/CalulatorDiv.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="411" y="444"/>    
-    <display autosize="true" stereotype="false" package="true" initial-value="false" signature="true" 
+    <position height="-1" width="-1" x="410" y="345"/>    
+    <display autosize="true" stereotype="true" package="false" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="false" package="false" protected="false" private="false" static="true"/>      
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
@@ -30,8 +30,8 @@
   </class>  
   <class id="4" language="java" name="c01.simpleFactory.CalulatorSub" project="bigtalkDesingPatternJava" 
     file="/bigtalkDesingPatternJava/src/c01/simpleFactory/CalulatorSub.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="539" y="444"/>    
-    <display autosize="true" stereotype="false" package="true" initial-value="false" signature="true" 
+    <position height="-1" width="-1" x="538" y="345"/>    
+    <display autosize="true" stereotype="true" package="false" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="false" package="false" protected="false" private="false" static="true"/>      
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
@@ -40,7 +40,7 @@
   <class id="5" language="java" name="c01.simpleFactory.CalculatorFactory" project="bigtalkDesingPatternJava" 
     file="/bigtalkDesingPatternJava/src/c01/simpleFactory/CalculatorFactory.java" binary="false" corner="BOTTOM_RIGHT">    
     <position height="-1" width="-1" x="265" y="210"/>    
-    <display autosize="true" stereotype="false" package="true" initial-value="false" signature="true" 
+    <display autosize="true" stereotype="true" package="false" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="false" package="false" protected="false" private="false" static="true"/>      
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
@@ -48,23 +48,23 @@
   </class>  
   <class id="6" language="java" name="c01.simpleFactory.CalulatorMul" project="bigtalkDesingPatternJava" 
     file="/bigtalkDesingPatternJava/src/c01/simpleFactory/CalulatorMul.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="667" y="444"/>    
-    <display autosize="true" stereotype="false" package="true" initial-value="false" signature="true" 
+    <position height="-1" width="-1" x="666" y="345"/>    
+    <display autosize="true" stereotype="true" package="false" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="false" package="false" protected="false" private="false" static="true"/>      
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </class>  
   <generalization id="7">    
-    <end type="SOURCE" refId="6"/>    
-    <end type="TARGET" refId="1"/>  
-  </generalization>  
-  <generalization id="8">    
     <end type="SOURCE" refId="2"/>    
     <end type="TARGET" refId="1"/>  
   </generalization>  
-  <generalization id="9">    
+  <generalization id="8">    
     <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="1"/>  
+  </generalization>  
+  <generalization id="9">    
+    <end type="SOURCE" refId="6"/>    
     <end type="TARGET" refId="1"/>  
   </generalization>  
   <dependency id="10">    

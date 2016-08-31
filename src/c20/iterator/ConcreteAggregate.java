@@ -10,15 +10,15 @@ public class ConcreteAggregate<T> implements Aggregate<T> {
 	public Iterator<T> createIterator() {
 		return new ConcreteIterator<>(this);
 	}
-	
+	@Override
 	public int size(){
 		return items.size();
 	}
-	
+	@Override
 	public T get(int index){
 		return items.get(index);
 	}
-	
+	@Override
 	public void add(T t){
 		items.add(t);
 	}

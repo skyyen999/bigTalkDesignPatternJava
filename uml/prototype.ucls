@@ -4,7 +4,7 @@
   <class id="1" language="java" name="c09.prototype.Resume" project="bigtalkDesingPatternJava" 
     file="/bigtalkDesingPatternJava/src/c09/prototype/Resume.java" binary="false" corner="BOTTOM_RIGHT">    
     <position height="-1" width="-1" x="341" y="174"/>    
-    <display autosize="true" stereotype="false" package="true" initial-value="false" signature="true" 
+    <display autosize="true" stereotype="true" package="false" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="false" package="false" protected="false" private="false" static="true"/>      
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
@@ -13,20 +13,37 @@
   <class id="2" language="java" name="c09.prototype.WorkExperience" project="bigtalkDesingPatternJava" 
     file="/bigtalkDesingPatternJava/src/c09/prototype/Resume.java" binary="false" corner="BOTTOM_RIGHT">    
     <position height="-1" width="-1" x="339" y="353"/>    
-    <display autosize="true" stereotype="false" package="true" initial-value="false" signature="true" 
+    <display autosize="true" stereotype="true" package="false" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="false" package="false" protected="false" private="false" static="true"/>      
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </class>  
-  <association id="3">    
+  <class id="3" language="java" name="c09.prototype.ResumeClient" project="bigtalkDesingPatternJava" 
+    file="/bigtalkDesingPatternJava/client/c09/prototype/ResumeClient.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="115" y="174"/>    
+    <display autosize="true" stereotype="true" package="false" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="false" package="false" protected="false" private="false" static="true"/>      
+      <operations public="false" package="false" protected="false" private="false" static="true"/>    
+    </display>  
+  </class>  
+  <association id="4">    
     <end type="SOURCE" refId="1" navigable="false">      
-      <attribute id="4" name="work"/>      
-      <multiplicity id="5" minimum="0" maximum="1"/>    
+      <attribute id="5" name="work">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </attribute>      
+      <multiplicity id="6" minimum="0" maximum="1">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
     </end>    
     <end type="TARGET" refId="2" navigable="true"/>    
     <display labels="true" multiplicity="true"/>  
   </association>  
+  <dependency id="7">    
+    <end type="SOURCE" refId="3"/>    
+    <end type="TARGET" refId="1"/>  
+  </dependency>  
   <classifier-display autosize="true" stereotype="false" package="true" initial-value="false" signature="true" 
     sort-features="false" accessors="true" visibility="true">    
     <attributes public="false" package="false" protected="false" private="false" static="true"/>    

@@ -4,7 +4,7 @@
   <class id="1" language="java" name="c19.composite.FinaneDept" project="bigtalkDesingPatternJava" 
     file="/bigtalkDesingPatternJava/src/c19/composite/FinaneDept.java" binary="false" corner="BOTTOM_RIGHT">    
     <position height="-1" width="-1" x="311" y="300"/>    
-    <display autosize="true" stereotype="false" package="true" initial-value="false" signature="true" 
+    <display autosize="true" stereotype="true" package="false" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="false" package="false" protected="false" private="false" static="true"/>      
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
@@ -13,7 +13,7 @@
   <class id="2" language="java" name="c19.composite.HRDept" project="bigtalkDesingPatternJava" 
     file="/bigtalkDesingPatternJava/src/c19/composite/HRDept.java" binary="false" corner="BOTTOM_RIGHT">    
     <position height="-1" width="-1" x="479" y="300"/>    
-    <display autosize="true" stereotype="false" package="true" initial-value="false" signature="true" 
+    <display autosize="true" stereotype="true" package="false" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="false" package="false" protected="false" private="false" static="true"/>      
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
@@ -22,7 +22,7 @@
   <class id="3" language="java" name="c19.composite.Company" project="bigtalkDesingPatternJava" 
     file="/bigtalkDesingPatternJava/src/c19/composite/Company.java" binary="false" corner="BOTTOM_RIGHT">    
     <position height="-1" width="-1" x="478" y="111"/>    
-    <display autosize="true" stereotype="false" package="true" initial-value="false" signature="true" 
+    <display autosize="true" stereotype="true" package="false" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="false" package="false" protected="false" private="false" static="true"/>      
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
@@ -31,31 +31,35 @@
   <class id="4" language="java" name="c19.composite.ConcreteCompany" project="bigtalkDesingPatternJava" 
     file="/bigtalkDesingPatternJava/src/c19/composite/ConcreteCompany.java" binary="false" corner="BOTTOM_RIGHT">    
     <position height="-1" width="-1" x="650" y="301"/>    
-    <display autosize="true" stereotype="false" package="true" initial-value="false" signature="true" 
+    <display autosize="true" stereotype="true" package="false" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="false" package="false" protected="false" private="false" static="true"/>      
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </class>  
-  <association id="5">    
+  <generalization id="5">    
+    <end type="SOURCE" refId="2"/>    
+    <end type="TARGET" refId="3"/>  
+  </generalization>  
+  <generalization id="6">    
+    <end type="SOURCE" refId="1"/>    
+    <end type="TARGET" refId="3"/>  
+  </generalization>  
+  <association id="7">    
     <bendpoint x="649" y="111"/>    
     <end type="SOURCE" refId="4" navigable="false">      
-      <attribute id="6" name="children"/>      
-      <multiplicity id="7" minimum="0" maximum="2147483647"/>    
+      <attribute id="8" name="children">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </attribute>      
+      <multiplicity id="9" minimum="0" maximum="2147483647">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
     </end>    
     <end type="TARGET" refId="3" navigable="true"/>    
     <display labels="true" multiplicity="true"/>  
   </association>  
-  <generalization id="8">    
-    <end type="SOURCE" refId="4"/>    
-    <end type="TARGET" refId="3"/>  
-  </generalization>  
-  <generalization id="9">    
-    <end type="SOURCE" refId="2"/>    
-    <end type="TARGET" refId="3"/>  
-  </generalization>  
   <generalization id="10">    
-    <end type="SOURCE" refId="1"/>    
+    <end type="SOURCE" refId="4"/>    
     <end type="TARGET" refId="3"/>  
   </generalization>  
   <classifier-display autosize="true" stereotype="false" package="true" initial-value="false" signature="true" 

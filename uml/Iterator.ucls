@@ -37,25 +37,44 @@
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </interface>  
-  <association id="5">    
+  <class id="5" language="java" name="c20.iterator.IteratorClient" project="bigtalkDesingPatternJava" 
+    file="/bigtalkDesingPatternJava/client/c20/iterator/IteratorClient.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="350" y="189"/>    
+    <display autosize="true" stereotype="true" package="false" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="false" package="false" protected="false" private="false" static="true"/>      
+      <operations public="false" package="false" protected="false" private="false" static="true"/>    
+    </display>  
+  </class>  
+  <dependency id="6">    
+    <end type="SOURCE" refId="5"/>    
+    <end type="TARGET" refId="2"/>  
+  </dependency>  
+  <dependency id="7">    
+    <end type="SOURCE" refId="5"/>    
+    <end type="TARGET" refId="4"/>  
+  </dependency>  
+  <realization id="8">    
+    <end type="SOURCE" refId="1"/>    
+    <end type="TARGET" refId="4"/>  
+  </realization>  
+  <realization id="9">    
+    <end type="SOURCE" refId="3"/>    
+    <end type="TARGET" refId="2"/>  
+  </realization>  
+  <association id="10">    
     <end type="SOURCE" refId="1" navigable="false">      
-      <attribute id="6" name="aggregate"/>      
-      <multiplicity id="7" minimum="0" maximum="1">        
+      <attribute id="11" name="aggregate">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </attribute>      
+      <multiplicity id="12" minimum="0" maximum="1">        
         <position height="16" width="23" x="261" y="476"/>      
       </multiplicity>    
     </end>    
     <end type="TARGET" refId="3" navigable="true"/>    
     <display labels="true" multiplicity="true"/>  
   </association>  
-  <realization id="8">    
-    <end type="SOURCE" refId="3"/>    
-    <end type="TARGET" refId="2"/>  
-  </realization>  
-  <realization id="9">    
-    <end type="SOURCE" refId="1"/>    
-    <end type="TARGET" refId="4"/>  
-  </realization>  
-  <dependency id="10">    
+  <dependency id="13">    
     <bendpoint x="323" y="484"/>    
     <end type="SOURCE" refId="3"/>    
     <end type="TARGET" refId="1"/>  

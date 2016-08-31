@@ -1,12 +1,12 @@
 package c20.iterator;
 /**
- * 公車買票-客戶端(iterator模式) 
+ * 公車買票-客戶端(迭代器模式) 
  * @author Yan
  *
  */
 public class IteratorClient {
 	public static void main(String[] args) {
-		ConcreteAggregate<String> a = new ConcreteAggregate<>();
+		Aggregate<String> a = new ConcreteAggregate<>();
 		a.add("鳥哥");
 		a.add("蔡蟲");
 		a.add("吉他");

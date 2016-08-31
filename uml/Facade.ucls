@@ -3,7 +3,7 @@
   realizations="true" associations="true" dependencies="false" nesting-relationships="true" router="FAN">  
   <class id="1" language="java" name="c12.facade.Realty" project="bigtalkDesingPatternJava" 
     file="/bigtalkDesingPatternJava/src/c12/facade/Fund.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="160" y="359"/>    
+    <position height="-1" width="-1" x="160" y="325"/>    
     <display autosize="true" stereotype="true" package="false" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="false" package="false" protected="false" private="false" static="true"/>      
@@ -12,7 +12,7 @@
   </class>  
   <class id="2" language="java" name="c12.facade.Stock" project="bigtalkDesingPatternJava" 
     file="/bigtalkDesingPatternJava/src/c12/facade/Fund.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="265" y="359"/>    
+    <position height="-1" width="-1" x="265" y="325"/>    
     <display autosize="true" stereotype="true" package="false" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="false" package="false" protected="false" private="false" static="true"/>      
@@ -21,7 +21,7 @@
   </class>  
   <class id="3" language="java" name="c12.facade.Nationaldept" project="bigtalkDesingPatternJava" 
     file="/bigtalkDesingPatternJava/src/c12/facade/Fund.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="379" y="359"/>    
+    <position height="-1" width="-1" x="379" y="325"/>    
     <display autosize="true" stereotype="true" package="false" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="false" package="false" protected="false" private="false" static="true"/>      
@@ -37,35 +37,60 @@
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </class>  
-  <association id="5">    
+  <class id="5" language="java" name="c12.facade.FundClient" project="bigtalkDesingPatternJava" 
+    file="/bigtalkDesingPatternJava/client/c12/facade/FundClient.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="73" width="103" x="30" y="56"/>    
+    <display autosize="true" stereotype="true" package="false" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="false" package="false" protected="false" private="false" static="true"/>      
+      <operations public="false" package="false" protected="false" private="false" static="true"/>    
+    </display>  
+  </class>  
+  <association id="6">    
     <bendpoint x="266" y="175"/>    
     <bendpoint x="160" y="175"/>    
     <end type="SOURCE" refId="4" navigable="false">      
-      <attribute id="6" name="realty"/>      
-      <multiplicity id="7" minimum="0" maximum="1"/>    
+      <attribute id="7" name="realty">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </attribute>      
+      <multiplicity id="8" minimum="0" maximum="1">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
     </end>    
     <end type="TARGET" refId="1" navigable="true"/>    
     <display labels="true" multiplicity="true"/>  
   </association>  
-  <association id="8">    
+  <association id="9">    
     <end type="SOURCE" refId="4" navigable="false">      
-      <attribute id="9" name="stock"/>      
-      <multiplicity id="10" minimum="0" maximum="1"/>    
+      <attribute id="10" name="stock">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </attribute>      
+      <multiplicity id="11" minimum="0" maximum="1">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
     </end>    
     <end type="TARGET" refId="2" navigable="true"/>    
     <display labels="true" multiplicity="true"/>  
   </association>  
-  <association id="11">    
+  <association id="12">    
     <bendpoint x="266" y="158"/>    
     <bendpoint x="266" y="175"/>    
     <bendpoint x="379" y="175"/>    
     <end type="SOURCE" refId="4" navigable="false">      
-      <attribute id="12" name="dept"/>      
-      <multiplicity id="13" minimum="0" maximum="1"/>    
+      <attribute id="13" name="dept">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </attribute>      
+      <multiplicity id="14" minimum="0" maximum="1">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
     </end>    
     <end type="TARGET" refId="3" navigable="true"/>    
     <display labels="true" multiplicity="true"/>  
   </association>  
+  <dependency id="15">    
+    <end type="SOURCE" refId="5"/>    
+    <end type="TARGET" refId="4"/>  
+  </dependency>  
   <classifier-display autosize="true" stereotype="false" package="true" initial-value="false" signature="true" 
     sort-features="false" accessors="true" visibility="true">    
     <attributes public="false" package="false" protected="false" private="false" static="true"/>    

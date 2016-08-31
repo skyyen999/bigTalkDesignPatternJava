@@ -12,7 +12,7 @@
   </class>  
   <class id="2" language="java" name="c02.strategy.simpleFactory.CashReturn" project="bigtalkDesingPatternJava" 
     file="/bigtalkDesingPatternJava/src/c02/strategy/simpleFactory/CashReturn.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="323" y="442"/>    
+    <position height="-1" width="-1" x="323" y="345"/>    
     <display autosize="true" stereotype="true" package="false" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="false" package="false" protected="false" private="false" static="true"/>      
@@ -22,7 +22,7 @@
   <class id="3" language="java" name="c02.strategy.simpleFactory.CashDiscount" project="bigtalkDesingPatternJava" 
     file="/bigtalkDesingPatternJava/src/c02/strategy/simpleFactory/CashDiscount.java" binary="false" 
     corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="497" y="449"/>    
+    <position height="-1" width="-1" x="497" y="352"/>    
     <display autosize="true" stereotype="true" package="false" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="false" package="false" protected="false" private="false" static="true"/>      
@@ -31,7 +31,7 @@
   </class>  
   <class id="4" language="java" name="c02.strategy.simpleFactory.CashNomal" project="bigtalkDesingPatternJava" 
     file="/bigtalkDesingPatternJava/src/c02/strategy/simpleFactory/CashNomal.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="665" y="442"/>    
+    <position height="-1" width="-1" x="665" y="345"/>    
     <display autosize="true" stereotype="true" package="false" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="false" package="false" protected="false" private="false" static="true"/>      
@@ -47,26 +47,26 @@
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </class>  
-  <association id="6">    
+  <generalization id="6">    
+    <end type="SOURCE" refId="3"/>    
+    <end type="TARGET" refId="5"/>  
+  </generalization>  
+  <generalization id="7">    
+    <end type="SOURCE" refId="2"/>    
+    <end type="TARGET" refId="5"/>  
+  </generalization>  
+  <association id="8">    
     <end type="SOURCE" refId="1" navigable="false">      
-      <attribute id="7" name="cs">        
+      <attribute id="9" name="cs">        
         <position height="0" width="0" x="0" y="0"/>      
       </attribute>      
-      <multiplicity id="8" minimum="0" maximum="1">        
+      <multiplicity id="10" minimum="0" maximum="1">        
         <position height="0" width="0" x="0" y="0"/>      
       </multiplicity>    
     </end>    
     <end type="TARGET" refId="5" navigable="true"/>    
     <display labels="true" multiplicity="true"/>  
   </association>  
-  <generalization id="9">    
-    <end type="SOURCE" refId="3"/>    
-    <end type="TARGET" refId="5"/>  
-  </generalization>  
-  <generalization id="10">    
-    <end type="SOURCE" refId="2"/>    
-    <end type="TARGET" refId="5"/>  
-  </generalization>  
   <generalization id="11">    
     <end type="SOURCE" refId="4"/>    
     <end type="TARGET" refId="5"/>  

@@ -12,7 +12,7 @@
   </class>  
   <class id="2" language="java" name="c14.observer.StockObserver" project="bigtalkDesingPatternJava" 
     file="/bigtalkDesingPatternJava/src/c14/observer/StockObserver.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="126" y="252"/>    
+    <position height="-1" width="-1" x="125" y="325"/>    
     <display autosize="true" stereotype="true" package="false" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="false" package="false" protected="false" private="false" static="true"/>      
@@ -30,7 +30,7 @@
   </class>  
   <class id="4" language="java" name="c14.observer.Secretary" project="bigtalkDesingPatternJava" 
     file="/bigtalkDesingPatternJava/src/c14/observer/Secretary.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="494" y="255"/>    
+    <position height="-1" width="-1" x="508" y="261"/>    
     <display autosize="true" stereotype="true" package="false" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="false" package="false" protected="false" private="false" static="true"/>      
@@ -39,7 +39,7 @@
   </class>  
   <class id="5" language="java" name="c14.observer.Boss" project="bigtalkDesingPatternJava" 
     file="/bigtalkDesingPatternJava/src/c14/observer/Boss.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="682" y="255"/>    
+    <position height="-1" width="-1" x="696" y="261"/>    
     <display autosize="true" stereotype="true" package="false" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="false" package="false" protected="false" private="false" static="true"/>      
@@ -48,7 +48,7 @@
   </class>  
   <class id="6" language="java" name="c14.observer.NBAObserver" project="bigtalkDesingPatternJava" 
     file="/bigtalkDesingPatternJava/src/c14/observer/NBAObserver.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="311" y="255"/>    
+    <position height="-1" width="-1" x="310" y="328"/>    
     <display autosize="true" stereotype="true" package="false" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="false" package="false" protected="false" private="false" static="true"/>      
@@ -56,15 +56,15 @@
     </display>  
   </class>  
   <association id="7">    
-    <end type="SOURCE" refId="3" navigable="false">      
-      <attribute id="8" name="list">        
-        <position height="0" width="0" x="0" y="0"/>      
+    <end type="SOURCE" refId="1" navigable="false">      
+      <attribute id="8" name="sub">        
+        <position height="18" width="28" x="466" y="57"/>      
       </attribute>      
-      <multiplicity id="9" minimum="0" maximum="2147483647">        
-        <position height="0" width="0" x="0" y="0"/>      
+      <multiplicity id="9" minimum="0" maximum="1">        
+        <position height="16" width="23" x="463" y="84"/>      
       </multiplicity>    
     </end>    
-    <end type="TARGET" refId="1" navigable="true"/>    
+    <end type="TARGET" refId="3" navigable="true"/>    
     <display labels="true" multiplicity="true"/>  
   </association>  
   <generalization id="10">    
@@ -75,26 +75,24 @@
     <end type="SOURCE" refId="4"/>    
     <end type="TARGET" refId="3"/>  
   </generalization>  
-  <generalization id="12">    
+  <dependency id="12">    
+    <bendpoint x="312" y="158"/>    
+    <bendpoint x="447" y="117"/>    
+    <end type="SOURCE" refId="6"/>    
+    <end type="TARGET" refId="3"/>  
+  </dependency>  
+  <dependency id="13">    
+    <bendpoint x="125" y="430"/>    
+    <bendpoint x="406" y="431"/>    
+    <bendpoint x="406" y="193"/>    
+    <end type="SOURCE" refId="2"/>    
+    <end type="TARGET" refId="3"/>  
+  </dependency>  
+  <generalization id="14">    
     <end type="SOURCE" refId="6"/>    
     <end type="TARGET" refId="1"/>  
   </generalization>  
-  <association id="13">    
-    <bendpoint x="296" y="133"/>    
-    <bendpoint x="401" y="133"/>    
-    <bendpoint x="491" y="133"/>    
-    <end type="SOURCE" refId="1" navigable="false">      
-      <attribute id="14" name="sub">        
-        <position height="18" width="28" x="446" y="112"/>      
-      </attribute>      
-      <multiplicity id="15" minimum="0" maximum="1">        
-        <position height="16" width="23" x="448" y="137"/>      
-      </multiplicity>    
-    </end>    
-    <end type="TARGET" refId="3" navigable="true"/>    
-    <display labels="true" multiplicity="true"/>  
-  </association>  
-  <generalization id="16">    
+  <generalization id="15">    
     <end type="SOURCE" refId="2"/>    
     <end type="TARGET" refId="1"/>  
   </generalization>  

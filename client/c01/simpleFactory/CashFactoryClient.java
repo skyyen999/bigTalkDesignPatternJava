@@ -20,7 +20,7 @@ public class CashFactoryClient {
 		//type = "discount85";
 		//type = "return300n100";
 		
-		// 工廠模式，客戶端程式需知道 CashSuper與 CashFactory兩個類別
+		// 簡單工廠模式，客戶端程式需知道 CashSuper與 CashFactory兩個類別
 		CashSuper csN = CashFactory.createCashAccept(type);
 		
 		int totalN = csN.acceptCash(count*price);

@@ -7,4 +7,7 @@ package c20.iterator;
  */
 public interface Aggregate<T> {
 	Iterator<T> createIterator();
+	void add(T t);
+	int size();
+	T get(int index);
 }
