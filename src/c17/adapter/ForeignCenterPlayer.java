@@ -15,13 +15,13 @@ public class ForeignCenterPlayer {
 	 * 字尾C表示只能聽懂中文
 	 */
 	public void attackC(){
-		System.out.println(name + " gogogo");
+		System.out.println(name + " 上去投藍");
 	}
 	
 	/**
 	 * 字尾C表示只能聽懂中文
 	 */
 	public void defenseC(){
-		System.out.println(name + " stop him");
+		System.out.println(name + " 把他擋下");
 	}
 }

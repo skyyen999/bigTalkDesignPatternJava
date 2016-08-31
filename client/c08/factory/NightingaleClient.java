@@ -6,7 +6,7 @@ import c08.factory.SimpleFactory;
 import c08.factory.VolunteerFactory;
 
 /**
- * 南丁格爾老人服務團-客戶端
+ * 南丁格爾老人服務團-客戶端(工廠模式)
  * @author Yan
  *
  */

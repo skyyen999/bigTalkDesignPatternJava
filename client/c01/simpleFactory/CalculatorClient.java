@@ -1,25 +1,22 @@
 package c01.simpleFactory;
 
-import org.junit.Test;
-
-import c01.simpleFactory.Calculator;
-import c01.simpleFactory.CalculatorA;
-import c01.simpleFactory.CalculatorFactory;
-
 /**
- * 工廠模式 -計算機用戶端程式<br>
- * calculatorA()是測試沒有使用簡安工廠模式的計算機<br>
+ * 計算機-客戶端(簡單工廠模式 )<br>
+ * calculatorA()是測試沒有使用簡單工廠模式的計算機<br>
  * CalculatorFactory()是使用簡單工廠模式的計算機
  * @author Yan
  *
  */
 public class CalculatorClient {
-	
+	public static void main(String[] args) {
+		calculatorA();	
+		CalculatorFactory();
+	}
 	
 	/**
 	 * 業物邏輯與UI拆開的簡易計算機測試
 	 */
-	public void calculatorA(){
+	public static void calculatorA(){
 		System.out.println(">>>> calculatorA 測試 <<<< ");
 		
 		// 輸入值
@@ -38,11 +35,10 @@ public class CalculatorClient {
 		}
 	}
 	
-	@Test
 	/**
 	 * 使用簡單工廠模式(SimpleFactory Pattern)實現簡易計算機
 	 */
-	public void CalculatorFactory(){
+	public static void CalculatorFactory(){
 		System.out.println(">>>> CalculatorFactory 測試 <<<< ");
 		
 		// 輸入值

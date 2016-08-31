@@ -5,7 +5,7 @@ import c26.flywight.WebSiteFactory;
 import c26.flywight.Website;
 
 /**
- * 網站服務-客戶端
+ * 網站服務-客戶端(享元模式)
  * @author Yan
  *
  */

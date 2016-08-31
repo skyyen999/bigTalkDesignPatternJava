@@ -1,6 +1,6 @@
 package c24.ChainOfResponsibility;
 /**
- * 公司請假，加薪簽核-客戶端
+ * 公司請假，加薪簽核-客戶端(職責鏈模式)
  * @author Yan
  *
  */

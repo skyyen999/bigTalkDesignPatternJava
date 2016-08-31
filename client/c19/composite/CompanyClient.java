@@ -1,6 +1,6 @@
 package c19.composite;
 /**
- * 組合模式-客戶端
+ * 公司組織-客戶端(組合模式)
  * @author Yan
  *
  */

@@ -1,7 +1,7 @@
 package c21.singleton;
 
 /**
- * singleton客戶端
+ * singleton客戶端(單例模式)
  * @author Yan
  *
  */

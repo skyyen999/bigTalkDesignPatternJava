@@ -1,6 +1,6 @@
 package c20.iterator;
 /**
- * iterator客戶端
+ * 公車買票-客戶端(iterator模式) 
  * @author Yan
  *
  */

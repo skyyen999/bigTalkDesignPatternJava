@@ -5,6 +5,7 @@ import c13.builder.LinePersonBuilder;
 import c13.builder.PersonDerector;
 
 /**
+ * 畫小人-客戶端(建造者模式)
  * builder pattern 與 factory pattern的差異處<br>
  * factory pattern 關注一個物件如何產生 <br>
  * builder pattern 關注一個由各種零組件組合的物件如何產生

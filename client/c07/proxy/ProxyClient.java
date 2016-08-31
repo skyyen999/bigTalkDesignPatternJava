@@ -5,7 +5,7 @@ import c07.proxy.Pursuit;
 import c07.proxy.SchoolGirl;
 
 /**
- * 代理人幫人送禮物的客戶端程式
+ * 代理人幫人送禮物-客戶端(代理模式)
  * @author Yan
  *
  */

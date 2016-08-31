@@ -3,7 +3,7 @@ package c09.prototype;
 import c09.prototype.Resume;
 
 /**
- * 履歷-客戶端 
+ * 履歷-客戶端 (原型模式)
  * @author Yan
  *
  */

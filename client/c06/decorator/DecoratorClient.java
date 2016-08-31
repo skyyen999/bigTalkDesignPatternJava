@@ -1,6 +1,6 @@
 package c06.decorator;
 /**
- * 裝飾模式-客戶端
+ * 打扮-客戶端(裝飾模式)
  * @author Yan
  *
  */

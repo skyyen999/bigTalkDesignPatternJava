@@ -5,7 +5,7 @@ import c17.adapter.Player;
 import c17.adapter.Translator;
 
 /**
- * 轉接器-客戶端
+ * NBA翻譯-客戶端(轉接器模式)
  * @author Yan
  *
  */
@@ -16,6 +16,7 @@ public class TranslatorClient {
 		
 		Player ym = new Translator("姚明");
 		ym.attack();
+		ym.defense();
 
 	}
 }

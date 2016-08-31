@@ -4,7 +4,7 @@ import c18.memento.GameRole;
 import c18.memento.RoleStateCareTaker;
 
 /**
- * 備忘錄模式-客戶端
+ * 打魔王遊戲-客戶端(備忘錄模式)
  * @author Yan
  *
  */

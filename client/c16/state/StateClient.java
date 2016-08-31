@@ -3,7 +3,7 @@ package c16.state;
 import c16.state.Work;
 
 /**
- * 上班狀態-客戶端
+ * 上班狀態-客戶端(狀態模式)
  * @author Yan
  *
  */

@@ -1,6 +1,6 @@
 package c23.command;
 /**
- * 燒烤店-客戶端
+ * 燒烤店-客戶端(命令模式)
  * @author Yan
  *
  */

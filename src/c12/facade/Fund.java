@@ -1,7 +1,5 @@
 package c12.facade;
 
-import org.omg.Messaging.SyncScopeHelper;
-
 /**
  * 幫你操作股票的基金類別
  * @author Yan

@@ -1,6 +1,6 @@
 package c25.mediator;
 /**
- * 聯合國-客戶端
+ * 聯合國-客戶端(中介者模式)
  * @author Yan
  *
  */

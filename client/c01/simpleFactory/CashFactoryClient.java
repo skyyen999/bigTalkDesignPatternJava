@@ -6,7 +6,7 @@ import c02.strategy.simpleFactory.CashFactory;
 import c02.strategy.simpleFactory.CashSuper;
 
 /**
- * 商場收銀軟體，根據客戶所購買的商品與數量收費<br>
+ * 商場收銀客戶端(簡單工廠)<br>
  * @author Yan
  *
  */
