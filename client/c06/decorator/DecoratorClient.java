@@ -10,12 +10,14 @@ public class DecoratorClient {
 		
 		
 		Finery sneakers = new Sneakers();
-		Finery trouser = new Trouser();
-		Finery tShirts = new TShirts();
-
 		sneakers.decorate(xc);
-		trouser.decorate(sneakers);
-		tShirts.decorate(trouser);
+		
+		Finery trouser = new Trouser(sneakers);
+		Finery tShirts = new TShirts(trouser);
+
+
+		//trouser.decorate(sneakers);
+		//tShirts.decorate(trouser);
 		tShirts.show();
 	}
 }
