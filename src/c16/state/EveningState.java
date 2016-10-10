@@ -1,6 +1,6 @@
 package c16.state;
 /**
- * 中午吃飯休息狀態
+ * 傍晚狀態
  * @author Yan
  *
  */
