@@ -5,7 +5,7 @@ package c13.builder;
  * @author Yan
  *
  */
-public class PersonDerector {
+public class PersonDirector {
 	private PersonBuilder pb;
 	public void setPersonBuilder(PersonBuilder pb){
 		this.pb = pb;

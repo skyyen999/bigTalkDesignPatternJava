@@ -19,8 +19,8 @@
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </class>  
-  <class id="3" language="java" name="c13.builder.PersonDerector" project="bigtalkDesingPatternJava" 
-    file="/bigtalkDesingPatternJava/src/c13/builder/PersonDerector.java" binary="false" corner="BOTTOM_RIGHT">    
+  <class id="3" language="java" name="c13.builder.PersonDirector" project="bigtalkDesingPatternJava" 
+    file="/bigtalkDesingPatternJava/src/c13/builder/PersonDirector.java" binary="false" corner="BOTTOM_RIGHT">    
     <position height="-1" width="-1" x="200" y="164"/>    
     <display autosize="true" stereotype="true" package="false" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
@@ -37,22 +37,22 @@
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </class>  
-  <association id="5">    
+  <generalization id="5">    
+    <end type="SOURCE" refId="2"/>    
+    <end type="TARGET" refId="4"/>  
+  </generalization>  
+  <association id="6">    
     <end type="SOURCE" refId="3" navigable="false">      
-      <attribute id="6" name="pb">        
+      <attribute id="7" name="pb">        
         <position height="0" width="0" x="0" y="0"/>      
       </attribute>      
-      <multiplicity id="7" minimum="0" maximum="1">        
+      <multiplicity id="8" minimum="0" maximum="1">        
         <position height="0" width="0" x="0" y="0"/>      
       </multiplicity>    
     </end>    
     <end type="TARGET" refId="4" navigable="true"/>    
     <display labels="true" multiplicity="true"/>  
   </association>  
-  <generalization id="8">    
-    <end type="SOURCE" refId="2"/>    
-    <end type="TARGET" refId="4"/>  
-  </generalization>  
   <generalization id="9">    
     <end type="SOURCE" refId="1"/>    
     <end type="TARGET" refId="4"/>  

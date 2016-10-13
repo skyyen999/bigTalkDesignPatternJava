@@ -2,7 +2,7 @@ package c13.builder;
 
 import c13.builder.GundamBuilder;
 import c13.builder.LinePersonBuilder;
-import c13.builder.PersonDerector;
+import c13.builder.PersonDirector;
 
 /**
  * 畫小人-客戶端(建造者模式)
@@ -14,7 +14,7 @@ import c13.builder.PersonDerector;
  */
 public class PersonBuilderClient {
 	public static void main(String[] args) {
-		PersonDerector pd = new PersonDerector();
+		PersonDirector pd = new PersonDirector();
 		
 		// director 用 createPersonFromLeg 從腳到頭畫一個線條人
 		LinePersonBuilder lpb = new LinePersonBuilder();
