@@ -3,7 +3,7 @@
   realizations="true" associations="true" dependencies="false" nesting-relationships="true" router="FAN">  
   <class id="1" language="java" name="c24.ChainOfResponsibility.Majordomo" project="bigtalkDesingPatternJava" 
     file="/bigtalkDesingPatternJava/src/c24/ChainOfResponsibility/Majordomo.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="168" y="235"/>    
+    <position height="-1" width="-1" x="262" y="269"/>    
     <display autosize="true" stereotype="true" package="false" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="false" package="false" protected="false" private="false" static="true"/>      
@@ -13,7 +13,7 @@
   <class id="2" language="java" name="c24.ChainOfResponsibility.GeneralManager" project="bigtalkDesingPatternJava" 
     file="/bigtalkDesingPatternJava/src/c24/ChainOfResponsibility/GeneralManager.java" binary="false" 
     corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="349" y="235"/>    
+    <position height="-1" width="-1" x="443" y="269"/>    
     <display autosize="true" stereotype="true" package="false" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="false" package="false" protected="false" private="false" static="true"/>      
@@ -23,7 +23,7 @@
   <class id="3" language="java" name="c24.ChainOfResponsibility.ApplyRequest" project="bigtalkDesingPatternJava" 
     file="/bigtalkDesingPatternJava/src/c24/ChainOfResponsibility/ApplyRequest.java" binary="false" 
     corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="351" y="404"/>    
+    <position height="-1" width="-1" x="231" y="119"/>    
     <display autosize="true" stereotype="true" package="false" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="false" package="false" protected="false" private="false" static="true"/>      
@@ -32,7 +32,7 @@
   </class>  
   <class id="4" language="java" name="c24.ChainOfResponsibility.Manager" project="bigtalkDesingPatternJava" 
     file="/bigtalkDesingPatternJava/src/c24/ChainOfResponsibility/Manager.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="349" y="86"/>    
+    <position height="-1" width="-1" x="443" y="120"/>    
     <display autosize="true" stereotype="true" package="false" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="false" package="false" protected="false" private="false" static="true"/>      
@@ -42,33 +42,33 @@
   <class id="5" language="java" name="c24.ChainOfResponsibility.CommonManager" project="bigtalkDesingPatternJava" 
     file="/bigtalkDesingPatternJava/src/c24/ChainOfResponsibility/CommonManager.java" binary="false" 
     corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="530" y="235"/>    
+    <position height="-1" width="-1" x="624" y="269"/>    
     <display autosize="true" stereotype="true" package="false" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="false" package="false" protected="false" private="false" static="true"/>      
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </class>  
-  <dependency id="6">    
-    <end type="SOURCE" refId="1"/>    
-    <end type="TARGET" refId="3"/>  
-  </dependency>  
+  <generalization id="6">    
+    <end type="SOURCE" refId="2"/>    
+    <end type="TARGET" refId="4"/>  
+  </generalization>  
   <generalization id="7">    
-    <end type="SOURCE" refId="2"/>    
-    <end type="TARGET" refId="4"/>  
-  </generalization>  
-  <dependency id="8">    
-    <end type="SOURCE" refId="2"/>    
-    <end type="TARGET" refId="3"/>  
-  </dependency>  
-  <generalization id="9">    
     <end type="SOURCE" refId="1"/>    
     <end type="TARGET" refId="4"/>  
   </generalization>  
+  <generalization id="8">    
+    <end type="SOURCE" refId="5"/>    
+    <end type="TARGET" refId="4"/>  
+  </generalization>  
+  <dependency id="9">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="3"/>  
+  </dependency>  
   <association id="10">    
-    <bendpoint x="492" y="86"/>    
-    <bendpoint x="492" y="11"/>    
-    <bendpoint x="350" y="11"/>    
+    <bendpoint x="534" y="118"/>    
+    <bendpoint x="534" y="11"/>    
+    <bendpoint x="444" y="11"/>    
     <end type="SOURCE" refId="4" navigable="false">      
       <attribute id="11" name="superior">        
         <position height="18" width="50" x="426" y="63"/>      
@@ -80,14 +80,6 @@
     <end type="TARGET" refId="4" navigable="true"/>    
     <display labels="true" multiplicity="true"/>  
   </association>  
-  <dependency id="13">    
-    <end type="SOURCE" refId="5"/>    
-    <end type="TARGET" refId="3"/>  
-  </dependency>  
-  <generalization id="14">    
-    <end type="SOURCE" refId="5"/>    
-    <end type="TARGET" refId="4"/>  
-  </generalization>  
   <classifier-display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
     sort-features="false" accessors="true" visibility="true">    
     <attributes public="false" package="false" protected="false" private="false" static="true"/>    
