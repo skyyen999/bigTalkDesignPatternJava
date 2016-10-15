@@ -17,7 +17,7 @@ public class GameRoleClient {
 
 		
 		// 使用複雜的神秘小技巧，可以降低boss攻擊力
-		System.out.println("使用複雜的神秘小技巧，低boss攻擊力， 先存檔");
+		System.out.println("使用複雜的神秘小技巧");
 		boss.setAtk(60);
 		
 		// 趕快存檔
